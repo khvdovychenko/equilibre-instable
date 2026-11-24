@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T14:23:25.050Z",
+  "updated_at": "2026-11-24T14:23:39.331Z",
   "words": [
     {
       "id": "w02@ch01",
@@ -43,6 +43,20 @@
       "chapter_id": "ch02",
       "chapter_title": "De travers",
       "added_at": "2026-11-24T14:23:25.050Z"
+    },
+    {
+      "id": "w02@ch02",
+      "lemma": "de travers",
+      "pos": "expression",
+      "definition_fr": "pas droit, mal placé",
+      "translation_en": "crooked, askew",
+      "example": "Ton tableau est accroché de travers.",
+      "cefr": "B2",
+      "surface": "de travers",
+      "chapter": 2,
+      "chapter_id": "ch02",
+      "chapter_title": "De travers",
+      "added_at": "2026-11-24T14:23:39.331Z"
     }
   ],
   "deleted": []
