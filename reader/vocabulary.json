@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-24T17:30:15.302Z",
+  "updated_at": "2026-11-24T22:33:11.623Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -20,12 +20,19 @@
       "sentence": "Avec le pouce, il a effacé le prix du cappuccino.",
       "form_start": 18,
       "srs": {
-        "status": "new",
-        "interval": 0,
-        "due_at": 2,
-        "reps": 0,
-        "lapses": 0,
-        "history": []
+        "status": "learning",
+        "interval": 1,
+        "due_at": 4,
+        "reps": 1,
+        "lapses": 1,
+        "history": [
+          {
+            "story": "equilibre-instable",
+            "chapter": 3,
+            "grade": "again",
+            "at": "2026-11-24T22:30:43.522Z"
+          }
+        ]
       }
     },
     {
@@ -46,12 +53,19 @@
       "sentence": "Un grand garçon en pull noir est debout devant le menu, une craie à la main.",
       "form_start": 60,
       "srs": {
-        "status": "new",
-        "interval": 0,
-        "due_at": 2,
-        "reps": 0,
+        "status": "learning",
+        "interval": 2,
+        "due_at": 5,
+        "reps": 1,
         "lapses": 0,
-        "history": []
+        "history": [
+          {
+            "story": "equilibre-instable",
+            "chapter": 3,
+            "grade": "good",
+            "at": "2026-11-24T22:31:00.788Z"
+          }
+        ]
       }
     },
     {
@@ -72,12 +86,19 @@
       "sentence": "Je le décolle pour voir s'il y a quelque chose dessous.",
       "form_start": 6,
       "srs": {
-        "status": "new",
-        "interval": 0,
-        "due_at": 3,
-        "reps": 0,
-        "lapses": 0,
-        "history": []
+        "status": "learning",
+        "interval": 1,
+        "due_at": 4,
+        "reps": 1,
+        "lapses": 1,
+        "history": [
+          {
+            "story": "equilibre-instable",
+            "chapter": 3,
+            "grade": "again",
+            "at": "2026-11-24T22:32:28.154Z"
+          }
+        ]
       }
     },
     {
@@ -98,12 +119,19 @@
       "sentence": "Un peu de travers.",
       "form_start": 7,
       "srs": {
-        "status": "new",
-        "interval": 0,
-        "due_at": 3,
-        "reps": 0,
-        "lapses": 0,
-        "history": []
+        "status": "learning",
+        "interval": 1,
+        "due_at": 4,
+        "reps": 1,
+        "lapses": 1,
+        "history": [
+          {
+            "story": "equilibre-instable",
+            "chapter": 3,
+            "grade": "again",
+            "at": "2026-11-24T22:32:40.688Z"
+          }
+        ]
       }
     },
     {
@@ -124,12 +152,19 @@
       "sentence": "Tu as laissé tes empreintes sur la scène du crime.",
       "form_start": 17,
       "srs": {
-        "status": "new",
-        "interval": 0,
-        "due_at": 3,
-        "reps": 0,
+        "status": "learning",
+        "interval": 2,
+        "due_at": 5,
+        "reps": 1,
         "lapses": 0,
-        "history": []
+        "history": [
+          {
+            "story": "equilibre-instable",
+            "chapter": 3,
+            "grade": "good",
+            "at": "2026-11-24T22:33:11.623Z"
+          }
+        ]
       }
     },
     {
@@ -485,6 +520,131 @@
         "lapses": 0,
         "history": []
       }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/w09",
+      "lemma": "mâcher",
+      "pos": "verbe",
+      "definition_fr": "écraser la nourriture avec les dents",
+      "translation_en": "to chew",
+      "example": "Mâche bien avant d'avaler.",
+      "cefr": "B1",
+      "surface": "mâcher",
+      "segment_id": "s22",
+      "sentence": "Bastien arrête de mâcher.",
+      "form_start": 18,
+      "added_at": "2026-11-24T22:25:43.423Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/w10",
+      "lemma": "à la louche",
+      "pos": "expression",
+      "definition_fr": "approximativement, sans calcul précis (familier)",
+      "translation_en": "roughly, ballpark",
+      "example": "À la louche, il y avait deux cents personnes.",
+      "cefr": "B2",
+      "surface": "à la louche",
+      "segment_id": "s27",
+      "sentence": "Dix euros pièce, à la louche.",
+      "form_start": 17,
+      "added_at": "2026-11-24T22:26:46.536Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/w12",
+      "lemma": "vexé(e)",
+      "pos": "adjectif",
+      "definition_fr": "blessé dans son amour-propre",
+      "translation_en": "offended, hurt",
+      "example": "Elle est vexée parce que personne n'a goûté son gâteau.",
+      "cefr": "B1",
+      "surface": "vexé",
+      "segment_id": "s32",
+      "sentence": "Je suis vexé.",
+      "form_start": 8,
+      "added_at": "2026-11-24T22:27:35.669Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/w13",
+      "lemma": "touché !",
+      "pos": "expression",
+      "definition_fr": "se dit quand l'autre a marqué un point juste dans une discussion",
+      "translation_en": "touché, fair point",
+      "example": "« Tu parles de ponctualité, toi ? » « Touché. »",
+      "cefr": "B2",
+      "surface": "Touché",
+      "segment_id": "s35",
+      "sentence": "Touché.",
+      "form_start": 0,
+      "added_at": "2026-11-24T22:28:09.203Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/x-s41-64",
+      "surface": "dedans",
+      "segment_id": "s41",
+      "sentence": "Ce sont des chiffres avec des gens dedans.",
+      "form_start": 35,
+      "added_at": "2026-11-24T22:29:14.120Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      },
+      "card_status": "pending"
     }
   ],
   "deleted": []
