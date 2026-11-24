@@ -1,6 +1,35 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T13:25:17Z",
-  "words": [],
+  "updated_at": "2026-11-24T13:58:05.664Z",
+  "words": [
+    {
+      "id": "w02@ch01",
+      "lemma": "effacer",
+      "pos": "verbe",
+      "definition_fr": "faire disparaître ce qui est écrit ou dessiné",
+      "translation_en": "to erase, to wipe off",
+      "example": "N'efface pas le tableau, je n'ai pas encore pris de photo.",
+      "cefr": "B1",
+      "surface": "a effacé",
+      "chapter": 1,
+      "chapter_id": "ch01",
+      "chapter_title": "La marge",
+      "added_at": "2026-11-24T13:58:03.556Z"
+    },
+    {
+      "id": "w01@ch01",
+      "lemma": "la craie",
+      "pos": "nom",
+      "definition_fr": "petit bâton blanc pour écrire sur un tableau noir",
+      "translation_en": "chalk",
+      "example": "Le professeur cherche une craie pour écrire au tableau.",
+      "cefr": "B1",
+      "surface": "craie",
+      "chapter": 1,
+      "chapter_id": "ch01",
+      "chapter_title": "La marge",
+      "added_at": "2026-11-24T13:58:05.664Z"
+    }
+  ],
   "deleted": []
 }
