@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T14:26:17.741Z",
+  "updated_at": "2026-11-24T14:26:39.253Z",
   "words": [
     {
       "id": "w02@ch01",
@@ -113,6 +113,20 @@
       "chapter_id": "ch02",
       "chapter_title": "De travers",
       "added_at": "2026-11-24T14:26:17.741Z"
+    },
+    {
+      "id": "w10@ch02",
+      "lemma": "le tirage au sort",
+      "pos": "nom",
+      "definition_fr": "choix fait par le hasard",
+      "translation_en": "draw (by lot)",
+      "example": "Le tirage au sort a décidé de l'ordre de passage.",
+      "cefr": "B1",
+      "surface": "le tirage au sort",
+      "chapter": 2,
+      "chapter_id": "ch02",
+      "chapter_title": "De travers",
+      "added_at": "2026-11-24T14:26:39.253Z"
     }
   ],
   "deleted": []
