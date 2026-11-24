@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T14:29:22.975Z",
+  "updated_at": "2026-11-24T14:33:26.054Z",
   "words": [
     {
       "id": "w02@ch01",
@@ -155,6 +155,20 @@
       "chapter_id": "ch02",
       "chapter_title": "De travers",
       "added_at": "2026-11-24T14:29:22.975Z"
+    },
+    {
+      "id": "w14@ch02",
+      "lemma": "se redresser",
+      "pos": "verbe",
+      "definition_fr": "se mettre bien droit",
+      "translation_en": "to sit up, to straighten up",
+      "example": "Redresse-toi, tu vas avoir mal au dos.",
+      "cefr": "B2",
+      "surface": "se redresse",
+      "chapter": 2,
+      "chapter_id": "ch02",
+      "chapter_title": "De travers",
+      "added_at": "2026-11-24T14:33:26.054Z"
     }
   ],
   "deleted": []
