@@ -540,7 +540,7 @@
       "start": 55,
       "end": 65,
       "lemma": "se faufiler",
-      "dictionary_ref": "w12@ch02"
+      "dictionary_ref": "equilibre-instable/ch02/w12"
     },
     {
       "segment_id": "s09",
@@ -548,7 +548,7 @@
       "start": 96,
       "end": 107,
       "lemma": "se redresser",
-      "dictionary_ref": "w14@ch02"
+      "dictionary_ref": "equilibre-instable/ch02/w14"
     },
     {
       "segment_id": "s33",
@@ -556,7 +556,7 @@
       "start": 9,
       "end": 16,
       "lemma": "découper",
-      "dictionary_ref": "w13@ch02"
+      "dictionary_ref": "equilibre-instable/ch02/w13"
     },
     {
       "segment_id": "s45",
@@ -564,7 +564,7 @@
       "start": 3,
       "end": 17,
       "lemma": "le tirage au sort",
-      "dictionary_ref": "w10@ch02"
+      "dictionary_ref": "equilibre-instable/ch02/w10"
     }
   ],
   "choices": [

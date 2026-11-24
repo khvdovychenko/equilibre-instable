@@ -101,7 +101,7 @@ body.reading #tabs { display: none; }
 .frame-head small { display: block; color: rgba(255,255,255,.85); letter-spacing: .04em; font-weight: 400; font-size: 11px; }
 
 /* Mots */
-.hl, .rv { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; cursor: pointer; border-radius: 3px; }
+.hl, .rv, .w { cursor: pointer; border-radius: 3px; }
 .hl { background: linear-gradient(transparent 58%, var(--hl) 58%); border-bottom: 2px solid var(--hl-line); }
 .hl.saved { background: linear-gradient(transparent 58%, color-mix(in srgb, var(--ok) 35%, transparent) 58%); border-bottom-color: var(--ok); }
 .rv { border-bottom: 1px dotted var(--muted); }
@@ -165,3 +165,40 @@ textarea { width: 100%; min-height: 78px; border: 1.5px solid var(--line); borde
 .hero.done .btn { background: var(--accent); }
 .panel.flash { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent); }
 .btn.ghost[style*="margin:0 0 16px"] { margin: 0 0 16px; }
+
+/* v2 : mots cliquables, sélection, histoires, révision, niveaux */
+[hidden] { display: none !important; }
+.stream, .rcard { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+body.sel .stream, body.sel .rcard { -webkit-user-select: text; user-select: text; -webkit-touch-callout: default; }
+.w { -webkit-tap-highlight-color: rgba(200, 85, 61, .18); }
+.back { display: inline-block; color: var(--accent); text-decoration: none; font-weight: 700; margin-bottom: 8px; }
+.chrow .num.cover { border-radius: 12px; background: var(--accent); color: #fff; border: 0; font-size: 18px; }
+.chlist { display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+.refresh { margin: 0 0 14px; }
+.switch { display: flex; align-items: center; gap: 10px; font-weight: 600; }
+.switch input { width: 22px; height: 22px; }
+.tools select { flex: 1; min-width: 0; border: 1.5px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink); padding: 9px 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
+.chip { background: var(--card); border: 1.5px solid var(--line); border-radius: 999px; padding: 5px 10px; font-size: 13px; color: var(--ink); }
+.chip b { margin-left: 6px; color: var(--accent); }
+.chip.on { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, var(--card)); }
+.wlist { display: flex; flex-direction: column; gap: 8px; }
+.wrow .cefr { font-size: 11px; font-weight: 700; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 1px 5px; }
+.wrow .lvl { font-size: 13px; margin-top: 3px; }
+.wrow .dots { color: var(--accent); letter-spacing: 1px; }
+.wrow .pend { color: #b8860b; }
+.wikt { margin-top: 4px; }
+.card-val.small { font-size: 14px; margin-top: 3px; }
+.rsent { font-family: Georgia, "Times New Roman", serif; font-size: 18px; line-height: 1.55; margin: 4px 0; }
+.rsent mark { background: var(--hl); color: inherit; border-bottom: 2px solid var(--hl-line); border-radius: 3px; padding: 0 2px; }
+.revision { margin-top: 34px; padding: 18px 16px; background: var(--card); border: 1px solid var(--line); border-radius: 22px; }
+.rev-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.rev-head h2 { margin: 0; flex: 1; font-size: 20px; }
+.rev-count { color: var(--muted); font-size: 14px; }
+.rev-skip { background: transparent; border: 0; color: var(--muted); font-weight: 700; padding: 6px; }
+.rcard { background: var(--bg); border: 1.5px solid var(--line); border-radius: 18px; padding: 16px; margin: 8px 0; }
+.rtap { color: var(--muted); font-size: 13px; text-align: center; margin: 10px 0 0; }
+.grades { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+.grade { border: 1.5px solid var(--line); border-radius: 14px; padding: 12px 6px; font-weight: 800; background: var(--bg); color: var(--ink); }
+.grade small { display: block; }
+.grade.again { border-color: #c0392b; } .grade.hard { border-color: #d99a00; } .grade.good { border-color: var(--ok); } .grade.easy { border-color: var(--accent); }

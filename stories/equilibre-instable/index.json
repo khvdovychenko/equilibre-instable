@@ -7,7 +7,7 @@
       "id": "ch01",
       "number": 1,
       "title": "La marge",
-      "file": "chapters/ch01.json",
+      "file": "stories/equilibre-instable/chapters/ch01.json",
       "cefr": "B1+",
       "reading_minutes": 5,
       "generated_at": "2026-11-24"
@@ -16,7 +16,7 @@
       "id": "ch02",
       "number": 2,
       "title": "De travers",
-      "file": "chapters/ch02.json",
+      "file": "stories/equilibre-instable/chapters/ch02.json",
       "cefr": "B1+",
       "reading_minutes": 5,
       "generated_at": "2026-11-24"
@@ -25,7 +25,7 @@
       "id": "ch03",
       "number": 3,
       "title": "Un demi-café",
-      "file": "chapters/ch03.json",
+      "file": "stories/equilibre-instable/chapters/ch03.json",
       "cefr": "B1+",
       "reading_minutes": 5,
       "generated_at": "2026-11-24"

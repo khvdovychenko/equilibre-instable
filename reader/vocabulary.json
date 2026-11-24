@@ -3,7 +3,7 @@
   "updated_at": "2026-11-24T14:33:26.054Z",
   "words": [
     {
-      "id": "w02@ch01",
+      "id": "equilibre-instable/ch01/w02",
       "lemma": "effacer",
       "pos": "verbe",
       "definition_fr": "faire disparaître ce qui est écrit ou dessiné",
@@ -14,10 +14,22 @@
       "chapter": 1,
       "chapter_id": "ch01",
       "chapter_title": "La marge",
-      "added_at": "2026-11-24T13:58:03.556Z"
+      "added_at": "2026-11-24T13:58:03.556Z",
+      "story": "equilibre-instable",
+      "segment_id": "s03",
+      "sentence": "Avec le pouce, il a effacé le prix du cappuccino.",
+      "form_start": 18,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 2,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w01@ch01",
+      "id": "equilibre-instable/ch01/w01",
       "lemma": "la craie",
       "pos": "nom",
       "definition_fr": "petit bâton blanc pour écrire sur un tableau noir",
@@ -28,10 +40,22 @@
       "chapter": 1,
       "chapter_id": "ch01",
       "chapter_title": "La marge",
-      "added_at": "2026-11-24T13:58:05.664Z"
+      "added_at": "2026-11-24T13:58:05.664Z",
+      "story": "equilibre-instable",
+      "segment_id": "s03",
+      "sentence": "Un grand garçon en pull noir est debout devant le menu, une craie à la main.",
+      "form_start": 60,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 2,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w01@ch02",
+      "id": "equilibre-instable/ch02/w01",
       "lemma": "décoller",
       "pos": "verbe",
       "definition_fr": "enlever doucement une chose qui est collée",
@@ -42,10 +66,22 @@
       "chapter": 2,
       "chapter_id": "ch02",
       "chapter_title": "De travers",
-      "added_at": "2026-11-24T14:23:25.050Z"
+      "added_at": "2026-11-24T14:23:25.050Z",
+      "story": "equilibre-instable",
+      "segment_id": "s06",
+      "sentence": "Je le décolle pour voir s'il y a quelque chose dessous.",
+      "form_start": 6,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w02@ch02",
+      "id": "equilibre-instable/ch02/w02",
       "lemma": "de travers",
       "pos": "expression",
       "definition_fr": "pas droit, mal placé",
@@ -56,10 +92,22 @@
       "chapter": 2,
       "chapter_id": "ch02",
       "chapter_title": "De travers",
-      "added_at": "2026-11-24T14:23:39.331Z"
+      "added_at": "2026-11-24T14:23:39.331Z",
+      "story": "equilibre-instable",
+      "segment_id": "s06",
+      "sentence": "Un peu de travers.",
+      "form_start": 7,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w04@ch02",
+      "id": "equilibre-instable/ch02/w04",
       "lemma": "l'empreinte (f.)",
       "pos": "nom",
       "definition_fr": "marque laissée par un doigt, un pied, etc.",
@@ -70,10 +118,22 @@
       "chapter": 2,
       "chapter_id": "ch02",
       "chapter_title": "De travers",
-      "added_at": "2026-11-24T14:24:32.710Z"
+      "added_at": "2026-11-24T14:24:32.710Z",
+      "story": "equilibre-instable",
+      "segment_id": "s08",
+      "sentence": "Tu as laissé tes empreintes sur la scène du crime.",
+      "form_start": 17,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w05@ch02",
+      "id": "equilibre-instable/ch02/w05",
       "lemma": "à bout de souffle",
       "pos": "expression",
       "definition_fr": "très essoufflé, qui n'arrive plus à respirer normalement",
@@ -84,10 +144,22 @@
       "chapter": 2,
       "chapter_id": "ch02",
       "chapter_title": "De travers",
-      "added_at": "2026-11-24T14:25:00.957Z"
+      "added_at": "2026-11-24T14:25:00.957Z",
+      "story": "equilibre-instable",
+      "segment_id": "s10",
+      "sentence": "J'arrive à bout de souffle.",
+      "form_start": 9,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w07@ch02",
+      "id": "equilibre-instable/ch02/w07",
       "lemma": "le gradin",
       "pos": "nom",
       "definition_fr": "rang de sièges en escalier, dans un stade ou un amphi",
@@ -98,10 +170,22 @@
       "chapter": 2,
       "chapter_id": "ch02",
       "chapter_title": "De travers",
-      "added_at": "2026-11-24T14:25:56.762Z"
+      "added_at": "2026-11-24T14:25:56.762Z",
+      "story": "equilibre-instable",
+      "segment_id": "s13",
+      "sentence": "Je voudrais disparaître sous les gradins.",
+      "form_start": 33,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w08@ch02",
+      "id": "equilibre-instable/ch02/w08",
       "lemma": "retroussé(e)",
       "pos": "adjectif",
       "definition_fr": "remonté, replié vers le haut (des manches, un pantalon)",
@@ -112,10 +196,22 @@
       "chapter": 2,
       "chapter_id": "ch02",
       "chapter_title": "De travers",
-      "added_at": "2026-11-24T14:26:17.741Z"
+      "added_at": "2026-11-24T14:26:17.741Z",
+      "story": "equilibre-instable",
+      "segment_id": "s14",
+      "sentence": "Cheveux bouclés, chemise blanche, manches retroussées.",
+      "form_start": 42,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w10@ch02",
+      "id": "equilibre-instable/ch02/w10",
       "lemma": "le tirage au sort",
       "pos": "nom",
       "definition_fr": "choix fait par le hasard",
@@ -126,10 +222,22 @@
       "chapter": 2,
       "chapter_id": "ch02",
       "chapter_title": "De travers",
-      "added_at": "2026-11-24T14:26:39.253Z"
+      "added_at": "2026-11-24T14:26:39.253Z",
+      "story": "equilibre-instable",
+      "segment_id": "s15",
+      "sentence": "Vous arrivez pile pour le tirage au sort.",
+      "form_start": 23,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w12@ch02",
+      "id": "equilibre-instable/ch02/w12",
       "lemma": "se faufiler",
       "pos": "verbe",
       "definition_fr": "passer adroitement entre des personnes ou des choses",
@@ -140,10 +248,22 @@
       "chapter": 2,
       "chapter_id": "ch02",
       "chapter_title": "De travers",
-      "added_at": "2026-11-24T14:28:17.981Z"
+      "added_at": "2026-11-24T14:28:17.981Z",
+      "story": "equilibre-instable",
+      "segment_id": "s22",
+      "sentence": "Je me faufile entre les genoux, je m'assois et je pose le dossier bleu devant Sacha.",
+      "form_start": 3,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w13@ch02",
+      "id": "equilibre-instable/ch02/w13",
       "lemma": "découper",
       "pos": "verbe",
       "definition_fr": "couper en plusieurs morceaux",
@@ -154,10 +274,22 @@
       "chapter": 2,
       "chapter_id": "ch02",
       "chapter_title": "De travers",
-      "added_at": "2026-11-24T14:29:22.975Z"
+      "added_at": "2026-11-24T14:29:22.975Z",
+      "story": "equilibre-instable",
+      "segment_id": "s31",
+      "sentence": "Toute la ville a vu un compte anonyme la découper en morceaux.",
+      "form_start": 41,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     },
     {
-      "id": "w14@ch02",
+      "id": "equilibre-instable/ch02/w14",
       "lemma": "se redresser",
       "pos": "verbe",
       "definition_fr": "se mettre bien droit",
@@ -168,7 +300,19 @@
       "chapter": 2,
       "chapter_id": "ch02",
       "chapter_title": "De travers",
-      "added_at": "2026-11-24T14:33:26.054Z"
+      "added_at": "2026-11-24T14:33:26.054Z",
+      "story": "equilibre-instable",
+      "segment_id": "s37",
+      "sentence": "Au troisième rang, un trench beige se redresse.",
+      "form_start": 35,
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     }
   ],
   "deleted": []

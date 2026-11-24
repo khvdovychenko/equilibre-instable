@@ -1,0 +1,572 @@
+{
+  "schema_version": "1.0",
+  "story_id": "equilibre-instable",
+  "season": 1,
+  "meta": {
+    "number": 1,
+    "title": "La marge",
+    "language_stage": {
+      "stage": 1,
+      "cefr": "B1+"
+    },
+    "word_count": 682,
+    "reading_minutes": 5,
+    "story_date": "2026-09-14",
+    "generated_at": "2026-11-24"
+  },
+  "cast": {
+    "maelle": {
+      "name": "Maëlle",
+      "color": "#C8553D"
+    },
+    "sacha": {
+      "name": "Sacha",
+      "color": "#2E4A7D"
+    },
+    "tom": {
+      "name": "Tom",
+      "color": "#6A994E"
+    },
+    "dede": {
+      "name": "Dédé",
+      "color": "#8A6E5A"
+    }
+  },
+  "segments": [
+    {
+      "id": "s01",
+      "type": "scene",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Café Brienne · lundi 14 septembre · 7h40"
+    },
+    {
+      "id": "s02",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Crr. Crr. Quelqu'un écrit sur mon tableau."
+    },
+    {
+      "id": "s03",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Un grand garçon en pull noir est debout devant le menu, une craie à la main. Avec le pouce, il a effacé le prix du cappuccino. À la place de 3,80 €, il écrit 3,20 €. Proprement. Avec une petite flèche."
+    },
+    {
+      "id": "s04",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Euh… excusez-moi ? Vous faites quoi, là ?"
+    },
+    {
+      "id": "s05",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Je corrige. Ta marge est incohérente."
+    },
+    {
+      "id": "s06",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Il est 7h40. Je n'ai pas encore bu mon café. Je ne suis pas prête pour un inconnu qui dit « incohérente » et qui me tutoie avant huit heures."
+    },
+    {
+      "id": "s07",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Ce n'est pas votre tableau."
+    },
+    {
+      "id": "s08",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Le cappuccino et le café au lait, c'est le même café et le même lait. Juste plus de mousse. Soixante centimes pour de l'air. Ça ne tient pas."
+    },
+    {
+      "id": "s09",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Derrière moi, la Bête, notre vieille machine à expresso, siffle comme pour lui donner raison. Traîtresse."
+    },
+    {
+      "id": "s10",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Les gens ne paient pas le lait. Ils paient l'image. Le cappuccino, c'est pour ceux qui veulent se sentir à Rome un lundi matin à Toulouse. Ça s'appelle la discrimination par les prix. C'est au programme de L2."
+    },
+    {
+      "id": "s11",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Donc tu profites des gens qui ne savent pas compter."
+    },
+    {
+      "id": "s12",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Non. Je laisse les gens choisir ce qu'ils veulent payer. Nuance."
+    },
+    {
+      "id": "s13",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Il enlève ses lunettes et les tient entre deux doigts. Il me regarde comme une équation qui ne marche pas. Et là, je le reconnais."
+    },
+    {
+      "id": "s14",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Ce visage, je l'ai regardé image par image en avril. Une table ronde à l'ISAE, un micro, et une phrase que la moitié de Toulouse connaît par cœur : « L'économie, c'est de l'astrologie avec des tableurs. » J'ai répondu sur mon compte anonyme, @la.main.invisible. Un thread de onze messages, quarante mille vues. Sa phrase est devenue un mème. Il existe même des autocollants."
+    },
+    {
+      "id": "s15",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Règle numéro un d'un compte anonyme : ne jamais servir de café à ses victimes."
+    },
+    {
+      "id": "s16",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Il ne sait pas. Il ne peut pas savoir. Respire."
+    },
+    {
+      "id": "s17",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Dans ma poche, mon téléphone vibre. Évidemment."
+    },
+    {
+      "id": "s18",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "tom",
+      "text": "maman demande si tu manges",
+      "message": {
+        "sender": "tom",
+        "chat": "Tom",
+        "time": "07:43"
+      }
+    },
+    {
+      "id": "s19",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "tom",
+      "text": "pistou a encore mangé une chaussette",
+      "message": {
+        "sender": "tom",
+        "chat": "Tom",
+        "time": "07:43"
+      }
+    },
+    {
+      "id": "s20",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Un café au lait."
+    },
+    {
+      "id": "s21",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Sur place ou à emporter ?"
+    },
+    {
+      "id": "s22",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "À emporter. Au prix juste."
+    },
+    {
+      "id": "s23",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Je prépare son café au lait, très lentement. La Bête siffle, le lait chauffe. Je pense une seconde à cracher dedans. Je ne le fais pas : j'ai une éthique professionnelle et une caméra au-dessus de la caisse."
+    },
+    {
+      "id": "s24",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Quand je pose le gobelet sur le comptoir, il ne le prend pas. Il regarde mon carnet, ouvert à côté de la caisse. Des colonnes, des chiffres, mon écriture penchée."
+    },
+    {
+      "id": "s25",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "C'est quoi ?"
+    },
+    {
+      "id": "s26",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Le coût réel d'un café ici. Les grains, le lait, le gobelet, l'électricité, le loyer, mon salaire. Le café lui-même coûte trente et un centimes. Le reste, c'est le loyer et les gens comme moi."
+    },
+    {
+      "id": "s27",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Il lit. Longtemps. Il tourne même la page. D'habitude, personne ne lit mes calculs. Même pas Dédé, et c'est pour lui que je les fais."
+    },
+    {
+      "id": "s28",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Puis il remet ses lunettes, reprend la craie, efface son 3,20 et réécrit 3,80. Sans un mot. Il pose trois euros quatre-vingts en pièces sur le comptoir. Compte exact."
+    },
+    {
+      "id": "s29",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Ton calcul tient. Ton argument sur Rome, non."
+    },
+    {
+      "id": "s30",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Son regard s'arrête sur le badge de ma veste en jean."
+    },
+    {
+      "id": "s31",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Maëlle."
+    },
+    {
+      "id": "s32",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Il dit mon prénom comme on vérifie un résultat. Puis il prend son café et il part. La porte se referme, et une rafale de vent d'autan fait tomber l'ardoise du menu du jour."
+    },
+    {
+      "id": "s33",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Je ne sais pas si c'était une insulte ou un compliment. Avec lui, je crois que c'est la même chose."
+    },
+    {
+      "id": "s34",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Je remarque que j'essuie le même verre depuis deux minutes."
+    },
+    {
+      "id": "s35",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Dédé sort de la réserve, un sac de grains sur l'épaule."
+    },
+    {
+      "id": "s36",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "dede",
+      "text": "Boudu, c'était qui, le grand corbeau ?"
+    },
+    {
+      "id": "s37",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Un client."
+    },
+    {
+      "id": "s38",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "dede",
+      "text": "Il a touché à mon tableau, con ?"
+    },
+    {
+      "id": "s39",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Il a perdu."
+    },
+    {
+      "id": "s40",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "dede",
+      "text": "Bien."
+    },
+    {
+      "id": "s41",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Je ramasse l'ardoise. C'est là que je le vois : un dossier bleu, oublié à côté de la caisse. Sur la couverture, un fleuve et un petit satellite. Et une étiquette."
+    },
+    {
+      "id": "s42",
+      "type": "document",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "DÉFI GARONNE · Lancement officiel · lundi 14 septembre, 10h30, Manufacture des Tabacs\nParticipant : Sacha Morel, ISAE-SUPAERO"
+    },
+    {
+      "id": "s43",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Je connais ce dossier. J'ai exactement le même dans mon sac."
+    },
+    {
+      "id": "s44",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Dans trois heures, l'astrologue et moi, on sera dans la même salle."
+    }
+  ],
+  "highlights": [
+    {
+      "id": "w01",
+      "segment_id": "s03",
+      "surface": "craie",
+      "start": 60,
+      "end": 65,
+      "occurrence": 1,
+      "lemma": "la craie",
+      "pos": "nom",
+      "definition_fr": "petit bâton blanc pour écrire sur un tableau noir",
+      "translation_en": "chalk",
+      "example": "Le professeur cherche une craie pour écrire au tableau.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w02",
+      "segment_id": "s03",
+      "surface": "a effacé",
+      "start": 95,
+      "end": 103,
+      "occurrence": 1,
+      "lemma": "effacer",
+      "pos": "verbe",
+      "definition_fr": "faire disparaître ce qui est écrit ou dessiné",
+      "translation_en": "to erase, to wipe off",
+      "example": "N'efface pas le tableau, je n'ai pas encore pris de photo.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w03",
+      "segment_id": "s05",
+      "surface": "incohérente",
+      "start": 25,
+      "end": 36,
+      "occurrence": 1,
+      "lemma": "incohérent(e)",
+      "pos": "adjectif",
+      "definition_fr": "qui n'est pas logique, dont les parties ne vont pas ensemble",
+      "translation_en": "inconsistent, incoherent",
+      "example": "Ton plan est incohérent : tu veux économiser et partir à Bali.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w04",
+      "segment_id": "s08",
+      "surface": "mousse",
+      "start": 84,
+      "end": 90,
+      "occurrence": 1,
+      "lemma": "la mousse",
+      "pos": "nom",
+      "definition_fr": "couche de petites bulles sur une boisson",
+      "translation_en": "foam, froth",
+      "example": "J'adore la mousse sur mon chocolat chaud.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w05",
+      "segment_id": "s08",
+      "surface": "Ça ne tient pas",
+      "start": 125,
+      "end": 140,
+      "occurrence": 1,
+      "lemma": "ça ne tient pas (tenir)",
+      "pos": "expression",
+      "definition_fr": "ce n'est pas solide, l'argument n'est pas logique",
+      "translation_en": "that doesn't hold up",
+      "example": "Ton excuse ne tient pas : je t'ai vu en ligne à minuit.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w06",
+      "segment_id": "s09",
+      "surface": "lui donner raison",
+      "start": 75,
+      "end": 92,
+      "occurrence": 1,
+      "lemma": "donner raison à qqn",
+      "pos": "expression",
+      "definition_fr": "dire ou montrer que quelqu'un a raison",
+      "translation_en": "to prove someone right, to side with someone",
+      "example": "Les résultats du test donnent raison à Nour.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w07",
+      "segment_id": "s11",
+      "surface": "profites des",
+      "start": 8,
+      "end": 20,
+      "occurrence": 1,
+      "lemma": "profiter de qqn / qqch",
+      "pos": "verbe",
+      "definition_fr": "utiliser une personne ou une situation à son avantage",
+      "translation_en": "to take advantage of",
+      "example": "Il profite de la gentillesse de sa sœur pour lui emprunter de l'argent.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w08",
+      "segment_id": "s12",
+      "surface": "Nuance",
+      "start": 57,
+      "end": 63,
+      "occurrence": 1,
+      "lemma": "la nuance",
+      "pos": "nom",
+      "definition_fr": "petite différence importante entre deux idées",
+      "translation_en": "nuance, subtle difference",
+      "example": "Je ne suis pas en retard, je suis la dernière à l'heure. Nuance !",
+      "cefr": "B1"
+    },
+    {
+      "id": "w09",
+      "segment_id": "s14",
+      "surface": "par cœur",
+      "start": 137,
+      "end": 145,
+      "occurrence": 1,
+      "lemma": "par cœur",
+      "pos": "expression",
+      "definition_fr": "de mémoire, sans regarder",
+      "translation_en": "by heart",
+      "example": "Elle connaît tous les horaires du métro par cœur.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w10",
+      "segment_id": "s14",
+      "surface": "tableurs",
+      "start": 193,
+      "end": 201,
+      "occurrence": 1,
+      "lemma": "le tableur",
+      "pos": "nom",
+      "definition_fr": "logiciel pour faire des calculs dans des tableaux (comme Excel)",
+      "translation_en": "spreadsheet",
+      "example": "Elle fait son budget du mois dans un tableur.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w11",
+      "segment_id": "s24",
+      "surface": "gobelet",
+      "start": 17,
+      "end": 24,
+      "occurrence": 1,
+      "lemma": "le gobelet",
+      "pos": "nom",
+      "definition_fr": "petit verre en carton ou en plastique, sans pied",
+      "translation_en": "paper / plastic cup",
+      "example": "Apporte ta tasse : les gobelets en carton coûtent dix centimes.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w12",
+      "segment_id": "s24",
+      "surface": "comptoir",
+      "start": 32,
+      "end": 40,
+      "occurrence": 1,
+      "lemma": "le comptoir",
+      "pos": "nom",
+      "definition_fr": "long meuble où on sert les clients dans un café ou un magasin",
+      "translation_en": "counter",
+      "example": "Le serveur pose les cafés sur le comptoir.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w13",
+      "segment_id": "s26",
+      "surface": "loyer",
+      "start": 79,
+      "end": 84,
+      "occurrence": 1,
+      "lemma": "le loyer",
+      "pos": "nom",
+      "definition_fr": "argent qu'on paie chaque mois pour utiliser un logement ou un local",
+      "translation_en": "rent",
+      "example": "À Toulouse, son loyer est de 520 euros par mois.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w14",
+      "segment_id": "s34",
+      "surface": "essuie",
+      "start": 18,
+      "end": 24,
+      "occurrence": 1,
+      "lemma": "essuyer",
+      "pos": "verbe",
+      "definition_fr": "rendre sec ou propre avec un tissu",
+      "translation_en": "to wipe, to dry",
+      "example": "Essuie la table avant de poser ton ordinateur.",
+      "cefr": "B1"
+    }
+  ],
+  "review_words": [],
+  "choices": [
+    {
+      "id": "c01-a",
+      "text": "Glisser le dossier dans mon sac. Je le lui rendrai moi-même à l'amphi."
+    },
+    {
+      "id": "c01-b",
+      "text": "Laisser le dossier à Dédé : « S'il revient, c'est pour lui. »"
+    },
+    {
+      "id": "c01-c",
+      "text": "Ouvrir @la.main.invisible et écrire un brouillon : « Il existe. Il boit du café au lait. »"
+    },
+    {
+      "id": "c01-d",
+      "text": "Ouvrir le dossier. Juste pour voir."
+    }
+  ]
+}
