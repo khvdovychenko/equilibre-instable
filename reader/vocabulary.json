@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T13:58:05.664Z",
+  "updated_at": "2026-11-24T14:23:25.050Z",
   "words": [
     {
       "id": "w02@ch01",
@@ -29,6 +29,20 @@
       "chapter_id": "ch01",
       "chapter_title": "La marge",
       "added_at": "2026-11-24T13:58:05.664Z"
+    },
+    {
+      "id": "w01@ch02",
+      "lemma": "décoller",
+      "pos": "verbe",
+      "definition_fr": "enlever doucement une chose qui est collée",
+      "translation_en": "to peel off, to unstick",
+      "example": "Ne décolle pas l'étiquette, on a besoin du prix.",
+      "cefr": "B1",
+      "surface": "décolle",
+      "chapter": 2,
+      "chapter_id": "ch02",
+      "chapter_title": "De travers",
+      "added_at": "2026-11-24T14:23:25.050Z"
     }
   ],
   "deleted": []
