@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T14:25:56.762Z",
+  "updated_at": "2026-11-24T14:26:17.741Z",
   "words": [
     {
       "id": "w02@ch01",
@@ -99,6 +99,20 @@
       "chapter_id": "ch02",
       "chapter_title": "De travers",
       "added_at": "2026-11-24T14:25:56.762Z"
+    },
+    {
+      "id": "w08@ch02",
+      "lemma": "retroussé(e)",
+      "pos": "adjectif",
+      "definition_fr": "remonté, replié vers le haut (des manches, un pantalon)",
+      "translation_en": "rolled up",
+      "example": "Il travaille les manches retroussées.",
+      "cefr": "B2",
+      "surface": "retroussées",
+      "chapter": 2,
+      "chapter_id": "ch02",
+      "chapter_title": "De travers",
+      "added_at": "2026-11-24T14:26:17.741Z"
     }
   ],
   "deleted": []
