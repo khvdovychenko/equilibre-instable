@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Équilibre instable</title>
+<meta name="theme-color" content="#C8553D">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Équilibre">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <main id="view" aria-live="polite"></main>
+  <nav id="tabs" aria-label="Navigation">
+    <a href="#/" data-tab="library"><span>Chapitres</span><small>chapters</small></a>
+    <a href="#/words" data-tab="words"><span>Dictionnaire</span><small>dictionary</small></a>
+    <a href="#/settings" data-tab="settings"><span>Réglages</span><small>settings</small></a>
+  </nav>
+</div>
+<div id="backdrop" hidden></div>
+<div id="sheet" role="dialog" aria-modal="true" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>
