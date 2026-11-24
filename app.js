@@ -611,7 +611,7 @@ function viewWords() {
   const v = $('#view');
   const all = Object.values(state.vocab.words).sort((a, b) => (a.added_at < b.added_at ? 1 : -1));
   const listBox = h('div');
-  const fill = () => {
+  const renderList = () => {
     const hide = !!state.ui.hideTr;
     const q = norm(wordQuery);
     const shown = q ? all.filter((w) => norm([w.lemma, w.translation_en, w.definition_fr].join(' ')).includes(q)) : all;
@@ -626,13 +626,13 @@ function viewWords() {
     h('h1', { class: 'page-title' }, 'Dictionnaire'),
     h('p', { class: 'page-sub' }, `${all.length} mot${all.length > 1 ? 's' : ''} `, hint(`${all.length} saved word${all.length === 1 ? '' : 's'}`)),
     h('div', { class: 'tools' },
-      h('input', { type: 'search', placeholder: 'Chercher…', value: wordQuery, oninput: (e) => { wordQuery = e.target.value; fill(); } }),
+      h('input', { type: 'search', placeholder: 'Chercher…', value: wordQuery, oninput: (e) => { wordQuery = e.target.value; renderList(); } }),
       h('label', null, h('input', { type: 'checkbox', checked: state.ui.hideTr ? 'checked' : null,
-        onchange: (e) => { state.ui.hideTr = e.target.checked; saveState(); fill(); } }),
+        onchange: (e) => { state.ui.hideTr = e.target.checked; saveState(); renderList(); } }),
       h('span', null, 'Cacher la traduction', h('br'), hint('hide translation')))),
     listBox
   );
-  fill();
+  renderList();
 }
 
 /* ---------- Réglages ---------- */
