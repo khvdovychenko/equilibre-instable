@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T14:24:32.710Z",
+  "updated_at": "2026-11-24T14:25:00.957Z",
   "words": [
     {
       "id": "w02@ch01",
@@ -71,6 +71,20 @@
       "chapter_id": "ch02",
       "chapter_title": "De travers",
       "added_at": "2026-11-24T14:24:32.710Z"
+    },
+    {
+      "id": "w05@ch02",
+      "lemma": "à bout de souffle",
+      "pos": "expression",
+      "definition_fr": "très essoufflé, qui n'arrive plus à respirer normalement",
+      "translation_en": "out of breath",
+      "example": "Il est arrivé à bout de souffle après avoir couru jusqu'au métro.",
+      "cefr": "B2",
+      "surface": "à bout de souffle",
+      "chapter": 2,
+      "chapter_id": "ch02",
+      "chapter_title": "De travers",
+      "added_at": "2026-11-24T14:25:00.957Z"
     }
   ],
   "deleted": []
