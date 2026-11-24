@@ -1,21 +1,25 @@
 {
-  "choice_id": null,
+  "choice_id": "c03-b",
   "feedback": {
-    "difficulty": null,
-    "interest": null,
-    "comment": null
+    "difficulty": "ok",
+    "interest": 4,
+    "comment": "Фідбек: я не зрозуміла, хто така Капюсін і чому Маель до неї так ставиться. Коли персонаж з'являється вперше або давно не з'являвся, коротко покажи через сцену чи думки Маель, хто це і які в них стосунки. Без довгих описів, але так, щоб я не губилася. Запиши це правило в біблію."
   },
   "saved_words": [
     "w01",
     "w02",
     "w05",
     "w06",
-    "w07"
+    "w07",
+    "w09",
+    "w10",
+    "w12",
+    "w13"
   ],
   "progress": {
     "last_segment_id": "s45",
-    "completed": false
+    "completed": true
   },
-  "submitted_at": null,
-  "updated_at": "2026-11-24T14:47:00.706Z"
+  "submitted_at": "2026-11-24T22:38:33.292Z",
+  "updated_at": "2026-11-24T22:38:33.291Z"
 }
