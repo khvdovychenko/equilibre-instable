@@ -1,10 +1,10 @@
 // Service worker : réseau d'abord, cache en secours (fonctionne hors ligne).
-const CACHE = 'equilibre-v1';
+const CACHE = 'equilibre-v2';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL.map((u) => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {
@@ -22,7 +22,7 @@ self.addEventListener('fetch', (e) => {
   if (url.origin !== self.location.origin) return; // api.github.com : pas touché
   const key = url.origin + url.pathname; // sans ?t=... pour ne pas remplir le cache
   e.respondWith(
-    fetch(req)
+    fetch(req, { cache: 'no-cache' })
       .then((res) => {
         if (res && res.ok) {
           const copy = res.clone();

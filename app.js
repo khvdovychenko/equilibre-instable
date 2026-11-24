@@ -1,7 +1,7 @@
 'use strict';
 /* Équilibre instable : lecteur d'histoire (PWA). Aucun framework, aucun build. */
 
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '1.0.1';
 const REPO = { owner: 'khvdovychenko', repo: 'equilibre-instable', branch: 'main' };
 const LS_STATE = 'equilibre_state_v1';
 const LS_TOKEN = 'equilibre_token';
@@ -277,10 +277,16 @@ function route() {
   document.body.classList.toggle('reading', name === 'read');
   document.querySelectorAll('#tabs a').forEach((a) => a.classList.toggle('on',
     (a.dataset.tab === 'library' && (name === '' || name === 'read')) || a.dataset.tab === name));
-  if (name === 'read') viewReader(parts[2], my);
-  else if (name === 'words') viewWords();
-  else if (name === 'settings') viewSettings();
-  else viewLibrary(my);
+  const showErr = (e) => fill($('#view'), h('p', { class: 'empty' }, 'Erreur dans l\'appli : ' + (e && e.message ? e.message : e),
+    h('br'), hint('please send this message to Claude')));
+  try {
+    let p;
+    if (name === 'read') p = viewReader(parts[2], my);
+    else if (name === 'words') viewWords();
+    else if (name === 'settings') viewSettings();
+    else p = viewLibrary(my);
+    if (p && p.catch) p.catch(showErr);
+  } catch (e) { showErr(e); }
   if (name !== 'read') window.scrollTo(0, 0);
 }
 
@@ -321,7 +327,7 @@ async function viewLibrary(my) {
       badge);
   });
   if (rows.length) v.append(h('div', { class: 'chlist' }, rows));
-  v.append(h('div', { class: 'sync-line', dataset: { sync: '' } }, statusText()));
+  v.append(h('div', { class: 'sync-line', dataset: { sync: '' } }, statusText()), h('div', { class: 'sync-line' }, 'version ' + APP_VERSION));
 }
 
 /* ---------- Lecture ---------- */
