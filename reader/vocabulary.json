@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-24T17:29:31.633Z",
+  "updated_at": "2026-11-24T17:30:15.302Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -451,6 +451,32 @@
       "sentence": "Cet été, dans le Gers, des agriculteurs ont perdu un tiers de leur récolte.",
       "form_start": 67,
       "added_at": "2026-11-24T17:29:31.633Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/w07",
+      "lemma": "le seuil",
+      "pos": "nom",
+      "definition_fr": "limite à partir de laquelle quelque chose se passe",
+      "translation_en": "threshold",
+      "example": "Au-dessus de ce seuil, l'alarme se déclenche.",
+      "cefr": "B2",
+      "surface": "seuil",
+      "segment_id": "s18",
+      "sentence": "Si l'humidité du sol passe sous un seuil, le paiement part tout seul.",
+      "form_start": 35,
+      "added_at": "2026-11-24T17:30:15.302Z",
       "srs": {
         "status": "new",
         "interval": 0,
