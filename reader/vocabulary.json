@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-24T17:28:58.180Z",
+  "updated_at": "2026-11-24T17:29:31.633Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -425,6 +425,32 @@
       "sentence": "La sécheresse.",
       "form_start": 0,
       "added_at": "2026-11-24T17:28:58.180Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/w06",
+      "lemma": "la récolte",
+      "pos": "nom",
+      "definition_fr": "ce qu'on ramasse dans les champs ; le fait de le ramasser",
+      "translation_en": "harvest, crop",
+      "example": "La récolte de raisin commence en septembre.",
+      "cefr": "B1",
+      "surface": "récolte",
+      "segment_id": "s18",
+      "sentence": "Cet été, dans le Gers, des agriculteurs ont perdu un tiers de leur récolte.",
+      "form_start": 67,
+      "added_at": "2026-11-24T17:29:31.633Z",
       "srs": {
         "status": "new",
         "interval": 0,
