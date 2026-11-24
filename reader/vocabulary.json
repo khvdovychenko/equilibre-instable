@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T14:26:39.253Z",
+  "updated_at": "2026-11-24T14:28:17.981Z",
   "words": [
     {
       "id": "w02@ch01",
@@ -127,6 +127,20 @@
       "chapter_id": "ch02",
       "chapter_title": "De travers",
       "added_at": "2026-11-24T14:26:39.253Z"
+    },
+    {
+      "id": "w12@ch02",
+      "lemma": "se faufiler",
+      "pos": "verbe",
+      "definition_fr": "passer adroitement entre des personnes ou des choses",
+      "translation_en": "to squeeze through, to slip through",
+      "example": "Il s'est faufilé jusqu'au premier rang du concert.",
+      "cefr": "B2",
+      "surface": "me faufile",
+      "chapter": 2,
+      "chapter_id": "ch02",
+      "chapter_title": "De travers",
+      "added_at": "2026-11-24T14:28:17.981Z"
     }
   ],
   "deleted": []
