@@ -415,12 +415,17 @@
       "srs": {
         "status": "new",
         "interval": 0,
-        "due_at": 4,
+        "due_at": 5,
         "reps": 0,
         "lapses": 0,
         "history": []
       },
-      "card_status": "pending"
+      "lemma": "la brûlure",
+      "pos": "nom",
+      "definition_fr": "blessure de la peau causée par le feu, la chaleur ou un objet très chaud",
+      "translation_en": "burn",
+      "example": "Il s'est fait une petite brûlure en sortant le plat du four.",
+      "cefr": "B1"
     },
     {
       "story": "equilibre-instable",
@@ -436,12 +441,17 @@
       "srs": {
         "status": "new",
         "interval": 0,
-        "due_at": 4,
+        "due_at": 5,
         "reps": 0,
         "lapses": 0,
         "history": []
       },
-      "card_status": "pending"
+      "lemma": "essoufflé(e)",
+      "pos": "adjectif",
+      "definition_fr": "qui respire vite et avec difficulté après un effort",
+      "translation_en": "out of breath, breathless",
+      "example": "Elle est arrivée essoufflée après avoir monté les trois étages.",
+      "cefr": "B1"
     },
     {
       "story": "equilibre-instable",
@@ -639,12 +649,17 @@
       "srs": {
         "status": "new",
         "interval": 0,
-        "due_at": 4,
+        "due_at": 5,
         "reps": 0,
         "lapses": 0,
         "history": []
       },
-      "card_status": "pending"
+      "lemma": "dedans",
+      "pos": "adverbe",
+      "definition_fr": "à l'intérieur de quelque chose",
+      "translation_en": "inside, in it",
+      "example": "J'ai ouvert la boîte : il n'y avait rien dedans.",
+      "cefr": "A2"
     }
   ],
   "deleted": []
