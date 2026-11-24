@@ -3,6 +3,23 @@
   "story_id": "equilibre-instable",
   "title": "Équilibre instable",
   "chapters": [
-    { "id": "ch01", "number": 1, "title": "La marge", "file": "chapters/ch01.json", "cefr": "B1+", "reading_minutes": 5, "generated_at": "2026-11-24" }
+    {
+      "id": "ch01",
+      "number": 1,
+      "title": "La marge",
+      "file": "chapters/ch01.json",
+      "cefr": "B1+",
+      "reading_minutes": 5,
+      "generated_at": "2026-11-24"
+    },
+    {
+      "id": "ch02",
+      "number": 2,
+      "title": "De travers",
+      "file": "chapters/ch02.json",
+      "cefr": "B1+",
+      "reading_minutes": 5,
+      "generated_at": "2026-11-24"
+    }
   ]
 }

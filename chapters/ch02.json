@@ -1,0 +1,615 @@
+{
+  "schema_version": "1.0",
+  "story_id": "equilibre-instable",
+  "season": 1,
+  "meta": {
+    "number": 2,
+    "title": "De travers",
+    "language_stage": {
+      "stage": 1,
+      "cefr": "B1+"
+    },
+    "word_count": 782,
+    "reading_minutes": 5,
+    "story_date": "2026-09-14",
+    "generated_at": "2026-11-24"
+  },
+  "cast": {
+    "maelle": {
+      "name": "Maëlle",
+      "color": "#C8553D"
+    },
+    "sacha": {
+      "name": "Sacha",
+      "color": "#2E4A7D"
+    },
+    "elias": {
+      "name": "Elias",
+      "color": "#D4A017"
+    },
+    "capucine": {
+      "name": "Capucine",
+      "color": "#8E7DBE"
+    },
+    "bastien": {
+      "name": "Bastien",
+      "color": "#F4A261"
+    },
+    "lagarde": {
+      "name": "Lagarde",
+      "color": "#6C757D"
+    }
+  },
+  "segments": [
+    {
+      "id": "s01",
+      "type": "scene",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Café Brienne · lundi 14 septembre · 7h52"
+    },
+    {
+      "id": "s02",
+      "type": "document",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "RÈGLEMENT DU DÉFI GARONNE · Liste des annexes\nAnnexe 1 : Calendrier\nAnnexe 2 : Critères d'évaluation\nAnnexe 3 : Conditions de participation (à valider en ligne)\nAnnexe 4 : Charte graphique"
+    },
+    {
+      "id": "s03",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Dans la marge, à côté de l'Annexe 3, quelqu'un a écrit au crayon, en petites lettres très droites :"
+    },
+    {
+      "id": "s04",
+      "type": "document",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Annexe 3 → lire. TOUT."
+    },
+    {
+      "id": "s05",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "« TOUT », en majuscules. Au crayon à papier. C'est la façon de crier de quelqu'un qui ne crie jamais."
+    },
+    {
+      "id": "s06",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "La page est marquée par un post-it orange. Je le décolle pour voir s'il y a quelque chose dessous. Rien. Je le recolle. Un peu de travers."
+    },
+    {
+      "id": "s07",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Et maintenant, il y a une trace blanche sur sa page. J'ai encore de la craie sur les doigts, à cause de l'ardoise. J'essaie d'effacer la trace avec le pouce. C'est pire : elle devient un petit nuage."
+    },
+    {
+      "id": "s08",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Bravo, Maëlle. Tu as laissé tes empreintes sur la scène du crime. Il faut que je lui rende ce dossier. Et que je fasse une tête d'innocente."
+    },
+    {
+      "id": "s09",
+      "type": "scene",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Manufacture des Tabacs · amphi · 10h41"
+    },
+    {
+      "id": "s10",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Le vent d'autan m'a poussée sur tout le pont Saint-Pierre, mais dans la mauvaise direction. J'arrive à bout de souffle. J'ouvre la porte de l'amphi le plus doucement possible. Le vent, lui, n'est pas doux du tout. La porte claque contre le mur."
+    },
+    {
+      "id": "s11",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Deux cents têtes se tournent vers moi. Sur la scène, un homme en costume et en baskets blanches s'arrête au milieu d'une phrase."
+    },
+    {
+      "id": "s12",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "lagarde",
+      "text": "… parce qu'au final, l'impact, c'est ça qui est scalable. On est alignés ? Oh. Hello !"
+    },
+    {
+      "id": "s13",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Je voudrais disparaître sous les gradins. Pour toujours, si possible."
+    },
+    {
+      "id": "s14",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Puis quelqu'un se lève au premier rang. Cheveux bouclés, chemise blanche, manches retroussées. Il me regarde comme s'il m'attendait."
+    },
+    {
+      "id": "s15",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "elias",
+      "text": "Mademoiselle Castan, je présume ? Vous arrivez pile pour le tirage au sort. Le vent d'autan est l'excuse officielle de Toulouse. Je l'accepte."
+    },
+    {
+      "id": "s16",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Quelques rires. Pas méchants. Lagarde rit aussi, avec une seconde de retard, comme quelqu'un qui n'a pas compris la blague mais qui ne veut pas le montrer."
+    },
+    {
+      "id": "s17",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "elias",
+      "text": "Elias Marchetti. Je serai votre chargé de TD d'économie industrielle, jeudi. Et le référent académique du Défi, ce qui veut dire que je n'ai aucun pouvoir, mais beaucoup d'opinions."
+    },
+    {
+      "id": "s18",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Comment vous connaissez mon nom ? On n'a pas encore eu cours."
+    },
+    {
+      "id": "s19",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "elias",
+      "text": "J'ai lu la liste de la promo. La deuxième du classement, il fallait bien que je mette un visage dessus."
+    },
+    {
+      "id": "s20",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "En trente secondes, il a transformé mon retard en entrée remarquée. Les gens comme lui sont dangereux. Ils rendent l'humiliation presque agréable."
+    },
+    {
+      "id": "s21",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Il reste une seule place libre, au cinquième rang. À côté d'un pull noir. L'univers a de l'humour."
+    },
+    {
+      "id": "s22",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Je me faufile entre les genoux, je m'assois et je pose le dossier bleu devant Sacha. Sans un mot."
+    },
+    {
+      "id": "s23",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Tu l'as trouvé où ?"
+    },
+    {
+      "id": "s24",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Sur mon comptoir. Vous l'avez oublié en partant avec votre café au prix juste."
+    },
+    {
+      "id": "s25",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Il regarde le dossier, puis l'étiquette sur le mien : Maëlle Castan, TSE. Son pouce passe sur la couverture, juste à l'endroit où le post-it dépasse. Il ne l'ouvre pas."
+    },
+    {
+      "id": "s26",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "TSE. Économie."
+    },
+    {
+      "id": "s27",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Astrologie, comme vous dites."
+    },
+    {
+      "id": "s28",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Il tourne la tête vers moi. Lentement."
+    },
+    {
+      "id": "s29",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Tu as vu la vidéo."
+    },
+    {
+      "id": "s30",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Toute la ville a vu la vidéo."
+    },
+    {
+      "id": "s31",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Toute la ville a vu un compte anonyme la découper en morceaux. Ce n'est pas pareil."
+    },
+    {
+      "id": "s32",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Il dit « anonyme » comme un médecin dit « infection ». Je regarde droit devant moi. Je n'ai jamais trouvé un PowerPoint aussi passionnant."
+    },
+    {
+      "id": "s33",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Merci. Pour le dossier."
+    },
+    {
+      "id": "s34",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Deux mots, et aucune correction. Je note la date."
+    },
+    {
+      "id": "s35",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Sur la scène, Elias tire des papiers d'une urne en verre. Il lit les noms d'une voix calme, comme s'il présentait des invités à un dîner. Équipe 1, équipe 2… Je n'écoute pas vraiment. Jusqu'à la 7."
+    },
+    {
+      "id": "s36",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "elias",
+      "text": "Équipe 7. Capucine de Vaublanc, TSE."
+    },
+    {
+      "id": "s37",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Au troisième rang, un trench beige se redresse. Capucine. La première du classement, celle qui me dépasse de 0,2 point depuis la L1."
+    },
+    {
+      "id": "s38",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "elias",
+      "text": "Maëlle Castan, TSE."
+    },
+    {
+      "id": "s39",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Capucine se retourne, me trouve et me sourit. Beaucoup de politesse, zéro chaleur."
+    },
+    {
+      "id": "s40",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "capucine",
+      "text": "Charmant."
+    },
+    {
+      "id": "s41",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "elias",
+      "text": "Bastien Roux, ISAE-SUPAERO."
+    },
+    {
+      "id": "s42",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "bastien",
+      "text": "Présent ! Enfin, mon téléphone est à trois pour cent, mais moi, ça va, gros !"
+    },
+    {
+      "id": "s43",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Au fond de la salle, un garçon en sweat à capuche lève les deux bras, comme un footballeur après un but. Des gens rient. Même Capucine a failli sourire."
+    },
+    {
+      "id": "s44",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "elias",
+      "text": "Et Sacha Morel, ISAE-SUPAERO."
+    },
+    {
+      "id": "s45",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Elias lève les yeux de son papier et les pose sur moi. Une seconde de trop. Puis sur Sacha. Puis il passe au nom suivant comme si de rien n'était."
+    },
+    {
+      "id": "s46",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "À côté de moi, Sacha ouvre enfin son dossier. Il tourne les pages, une par une, jusqu'au post-it orange. Il le regarde. Avec le bout du doigt, il le remet droit."
+    },
+    {
+      "id": "s47",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Il ne dit rien. Rien du tout. C'est pire que tout ce qu'il pourrait dire."
+    },
+    {
+      "id": "s48",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Règle numéro deux d'un compte anonyme : ne jamais faire équipe avec ses victimes. Trop tard."
+    }
+  ],
+  "highlights": [
+    {
+      "id": "w01",
+      "segment_id": "s06",
+      "surface": "décolle",
+      "start": 49,
+      "end": 56,
+      "occurrence": 1,
+      "lemma": "décoller",
+      "pos": "verbe",
+      "definition_fr": "enlever doucement une chose qui est collée",
+      "translation_en": "to peel off, to unstick",
+      "example": "Ne décolle pas l'étiquette, on a besoin du prix.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w02",
+      "segment_id": "s06",
+      "surface": "de travers",
+      "start": 127,
+      "end": 137,
+      "occurrence": 1,
+      "lemma": "de travers",
+      "pos": "expression",
+      "definition_fr": "pas droit, mal placé",
+      "translation_en": "crooked, askew",
+      "example": "Ton tableau est accroché de travers.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w03",
+      "segment_id": "s07",
+      "surface": "trace",
+      "start": 26,
+      "end": 31,
+      "occurrence": 1,
+      "lemma": "la trace",
+      "pos": "nom",
+      "definition_fr": "marque laissée par quelqu'un ou quelque chose",
+      "translation_en": "mark, trace",
+      "example": "Il y a des traces de café sur la table.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w04",
+      "segment_id": "s08",
+      "surface": "empreintes",
+      "start": 32,
+      "end": 42,
+      "occurrence": 1,
+      "lemma": "l'empreinte (f.)",
+      "pos": "nom",
+      "definition_fr": "marque laissée par un doigt, un pied, etc.",
+      "translation_en": "fingerprint, print",
+      "example": "La police a trouvé ses empreintes sur la porte.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w05",
+      "segment_id": "s10",
+      "surface": "à bout de souffle",
+      "start": 101,
+      "end": 118,
+      "occurrence": 1,
+      "lemma": "à bout de souffle",
+      "pos": "expression",
+      "definition_fr": "très essoufflé, qui n'arrive plus à respirer normalement",
+      "translation_en": "out of breath",
+      "example": "Il est arrivé à bout de souffle après avoir couru jusqu'au métro.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w06",
+      "segment_id": "s10",
+      "surface": "claque",
+      "start": 223,
+      "end": 229,
+      "occurrence": 1,
+      "lemma": "claquer",
+      "pos": "verbe",
+      "definition_fr": "se fermer ou frapper fort, avec un bruit sec",
+      "translation_en": "to slam, to bang",
+      "example": "Ne claque pas la porte, les voisins dorment.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w07",
+      "segment_id": "s13",
+      "surface": "gradins",
+      "start": 33,
+      "end": 40,
+      "occurrence": 1,
+      "lemma": "le gradin",
+      "pos": "nom",
+      "definition_fr": "rang de sièges en escalier, dans un stade ou un amphi",
+      "translation_en": "tiered seats, bleachers",
+      "example": "On s'est assis tout en haut des gradins.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w08",
+      "segment_id": "s14",
+      "surface": "retroussées",
+      "start": 82,
+      "end": 93,
+      "occurrence": 1,
+      "lemma": "retroussé(e)",
+      "pos": "adjectif",
+      "definition_fr": "remonté, replié vers le haut (des manches, un pantalon)",
+      "translation_en": "rolled up",
+      "example": "Il travaille les manches retroussées.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w09",
+      "segment_id": "s15",
+      "surface": "pile",
+      "start": 47,
+      "end": 51,
+      "occurrence": 1,
+      "lemma": "pile",
+      "pos": "adverbe",
+      "definition_fr": "exactement, juste au bon moment (familier)",
+      "translation_en": "right on time, exactly",
+      "example": "Tu arrives pile : le film commence.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w10",
+      "segment_id": "s15",
+      "surface": "le tirage au sort",
+      "start": 57,
+      "end": 74,
+      "occurrence": 1,
+      "lemma": "le tirage au sort",
+      "pos": "nom",
+      "definition_fr": "choix fait par le hasard",
+      "translation_en": "draw (by lot)",
+      "example": "Le tirage au sort a décidé de l'ordre de passage.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w11",
+      "segment_id": "s20",
+      "surface": "entrée remarquée",
+      "start": 50,
+      "end": 66,
+      "occurrence": 1,
+      "lemma": "faire une entrée remarquée",
+      "pos": "expression",
+      "definition_fr": "arriver quelque part en attirant l'attention de tout le monde",
+      "translation_en": "to make a grand entrance",
+      "example": "Avec sa robe rouge, elle a fait une entrée remarquée.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w12",
+      "segment_id": "s22",
+      "surface": "me faufile",
+      "start": 3,
+      "end": 13,
+      "occurrence": 1,
+      "lemma": "se faufiler",
+      "pos": "verbe",
+      "definition_fr": "passer adroitement entre des personnes ou des choses",
+      "translation_en": "to squeeze through, to slip through",
+      "example": "Il s'est faufilé jusqu'au premier rang du concert.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w13",
+      "segment_id": "s31",
+      "surface": "découper",
+      "start": 41,
+      "end": 49,
+      "occurrence": 1,
+      "lemma": "découper",
+      "pos": "verbe",
+      "definition_fr": "couper en plusieurs morceaux",
+      "translation_en": "to cut up, to cut into pieces",
+      "example": "Elle découpe le gâteau en huit parts.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w14",
+      "segment_id": "s37",
+      "surface": "se redresse",
+      "start": 35,
+      "end": 46,
+      "occurrence": 1,
+      "lemma": "se redresser",
+      "pos": "verbe",
+      "definition_fr": "se mettre bien droit",
+      "translation_en": "to sit up, to straighten up",
+      "example": "Redresse-toi, tu vas avoir mal au dos.",
+      "cefr": "B2"
+    }
+  ],
+  "review_words": [
+    {
+      "segment_id": "s07",
+      "surface": "craie",
+      "start": 71,
+      "end": 76,
+      "lemma": "la craie",
+      "dictionary_ref": "w01@ch01"
+    },
+    {
+      "segment_id": "s07",
+      "surface": "effacer",
+      "start": 126,
+      "end": 133,
+      "lemma": "effacer",
+      "dictionary_ref": "w02@ch01"
+    }
+  ],
+  "choices": [
+    {
+      "id": "c02-a",
+      "text": "Tendre la main à Sacha : « Coéquipiers, alors. Essaie de suivre. »"
+    },
+    {
+      "id": "c02-b",
+      "text": "Aller voir Elias après le lancement : « Est-ce qu'on peut changer d'équipe ? »"
+    },
+    {
+      "id": "c02-c",
+      "text": "Partir sans un mot dès la fin. S'il le faut, je travaillerai seule."
+    },
+    {
+      "id": "c02-d",
+      "text": "Ouvrir @la.main.invisible : « Thread 🧵 Comment survivre à un tirage au sort. »"
+    }
+  ]
+}
