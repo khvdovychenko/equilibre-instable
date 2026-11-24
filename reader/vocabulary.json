@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-24T17:21:49.164Z",
+  "updated_at": "2026-11-24T17:28:58.180Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -407,6 +407,32 @@
         "history": []
       },
       "card_status": "pending"
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/w05",
+      "lemma": "la sécheresse",
+      "pos": "nom",
+      "definition_fr": "longue période sans pluie",
+      "translation_en": "drought",
+      "example": "La sécheresse a détruit une partie des cultures.",
+      "cefr": "B1",
+      "surface": "La sécheresse",
+      "segment_id": "s16",
+      "sentence": "La sécheresse.",
+      "form_start": 0,
+      "added_at": "2026-11-24T17:28:58.180Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     }
   ],
   "deleted": []
