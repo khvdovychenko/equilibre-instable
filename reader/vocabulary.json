@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-24T17:19:49.751Z",
+  "updated_at": "2026-11-24T17:20:27.262Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -365,6 +365,27 @@
         "lapses": 0,
         "history": []
       }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/x-s04-4",
+      "surface": "brûlures",
+      "segment_id": "s04",
+      "sentence": "Des brûlures.",
+      "form_start": 4,
+      "added_at": "2026-11-24T17:20:27.262Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      },
+      "card_status": "pending"
     }
   ],
   "deleted": []
