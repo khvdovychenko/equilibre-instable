@@ -1,0 +1,26 @@
+{
+  "equilibre-instable/ch03/x-s04-4": {
+    "lemma": "la brûlure",
+    "pos": "nom",
+    "definition_fr": "blessure de la peau causée par le feu, la chaleur ou un objet très chaud",
+    "translation_en": "burn",
+    "example": "Il s'est fait une petite brûlure en sortant le plat du four.",
+    "cefr": "B1"
+  },
+  "equilibre-instable/ch03/x-s05-113": {
+    "lemma": "essoufflé(e)",
+    "pos": "adjectif",
+    "definition_fr": "qui respire vite et avec difficulté après un effort",
+    "translation_en": "out of breath, breathless",
+    "example": "Elle est arrivée essoufflée après avoir monté les trois étages.",
+    "cefr": "B1"
+  },
+  "equilibre-instable/ch03/x-s41-64": {
+    "lemma": "dedans",
+    "pos": "adverbe",
+    "definition_fr": "à l'intérieur de quelque chose",
+    "translation_en": "inside, in it",
+    "example": "J'ai ouvert la boîte : il n'y avait rien dedans.",
+    "cefr": "A2"
+  }
+}

@@ -29,6 +29,15 @@
       "cefr": "B1+",
       "reading_minutes": 5,
       "generated_at": "2026-11-24"
+    },
+    {
+      "id": "ch04",
+      "number": 4,
+      "title": "En ligne",
+      "file": "stories/equilibre-instable/chapters/ch04.json",
+      "cefr": "B1+",
+      "reading_minutes": 4,
+      "generated_at": "2026-11-24"
     }
   ]
 }

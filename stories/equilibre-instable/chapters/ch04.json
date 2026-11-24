@@ -1,0 +1,786 @@
+{
+  "schema_version": "1.0",
+  "story_id": "equilibre-instable",
+  "season": 1,
+  "meta": {
+    "number": 4,
+    "title": "En ligne",
+    "language_stage": {
+      "stage": 1,
+      "cefr": "B1+"
+    },
+    "word_count": 671,
+    "reading_minutes": 4,
+    "story_date": "2026-09-14",
+    "generated_at": "2026-11-24"
+  },
+  "cast": {
+    "maelle": {
+      "name": "Maëlle",
+      "color": "#C8553D"
+    },
+    "sacha": {
+      "name": "Sacha",
+      "color": "#2E4A7D"
+    },
+    "elias": {
+      "name": "Elias",
+      "color": "#D4A017"
+    },
+    "nour": {
+      "name": "Nour",
+      "color": "#2A9D8F"
+    },
+    "capucine": {
+      "name": "Capucine",
+      "color": "#8E7DBE"
+    },
+    "bastien": {
+      "name": "Bastien",
+      "color": "#F4A261"
+    },
+    "tom": {
+      "name": "Tom",
+      "color": "#6A994E"
+    }
+  },
+  "segments": [
+    {
+      "id": "s01",
+      "type": "scene",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Saint-Cyprien · lundi 14 septembre · 21h17"
+    },
+    {
+      "id": "s02",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "bastien",
+      "text": "bon jai créé le groupe la banquiere le corbeau madame la marquise et moi 🚀🚀",
+      "message": {
+        "sender": "bastien",
+        "chat": "Équipe 7 🚀",
+        "time": "21:17"
+      }
+    },
+    {
+      "id": "s03",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "bastien",
+      "text": "projet SILLON ça claque non ?? un sillon dans un champ mais vu de l espace",
+      "message": {
+        "sender": "bastien",
+        "chat": "Équipe 7 🚀",
+        "time": "21:18"
+      }
+    },
+    {
+      "id": "s04",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "capucine",
+      "text": "Le nom est acceptable. J'écris le pitch d'ici jeudi. — C.",
+      "message": {
+        "sender": "capucine",
+        "chat": "Équipe 7 🚀",
+        "time": "21:19"
+      }
+    },
+    {
+      "id": "s05",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Capucine de Vaublanc signe ses messages, comme des lettres. Première du classement depuis la L1. Moi, deuxième, à 0,2 point derrière elle. Trois ans dans les mêmes amphis, et pas une vraie conversation : on se regarde, on se compare, on se dit bonjour. Ce midi, quand j'ai proposé qu'elle fasse le pitch, elle m'a regardée comme si je lui rendais un objet perdu. Elle a dit « D'accord. » C'est notre plus longue conversation."
+    },
+    {
+      "id": "s06",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Un compromis, c'est quatre idées à moitié. On verra si ça tient.",
+      "message": {
+        "sender": "sacha",
+        "chat": "Équipe 7 🚀",
+        "time": "21:24"
+      }
+    },
+    {
+      "id": "s07",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "ça tiendra",
+      "message": {
+        "sender": "maelle",
+        "chat": "Équipe 7 🚀",
+        "time": "21:25"
+      }
+    },
+    {
+      "id": "s08",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "j'envoie les chiffres de pluie demain",
+      "message": {
+        "sender": "maelle",
+        "chat": "Équipe 7 🚀",
+        "time": "21:25"
+      }
+    },
+    {
+      "id": "s09",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "le satellite c'est ton problème",
+      "message": {
+        "sender": "maelle",
+        "chat": "Équipe 7 🚀",
+        "time": "21:25"
+      }
+    },
+    {
+      "id": "s10",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Reçu.",
+      "message": {
+        "sender": "sacha",
+        "chat": "Équipe 7 🚀",
+        "time": "21:26"
+      }
+    },
+    {
+      "id": "s11",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "bastien",
+      "text": "jpp vous etes deja un vieux couple",
+      "message": {
+        "sender": "bastien",
+        "chat": "Équipe 7 🚀",
+        "time": "21:26"
+      }
+    },
+    {
+      "id": "s12",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "bastien",
+      "text": "au fait vous avez vu le dernier thread de @la.main.invisible sur le RU 💀💀 trop fort ce mec",
+      "message": {
+        "sender": "bastien",
+        "chat": "Équipe 7 🚀",
+        "time": "21:31"
+      }
+    },
+    {
+      "id": "s13",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Ce compte a découpé une vidéo de moi en onze morceaux et l'a vendue comme une analyse. Ce n'est pas de l'humour. C'est de la lâcheté avec une bonne mise en page.",
+      "message": {
+        "sender": "sacha",
+        "chat": "Équipe 7 🚀",
+        "time": "21:33"
+      }
+    },
+    {
+      "id": "s14",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Si je trouve qui c'est, je le dis à tout le monde.",
+      "message": {
+        "sender": "sacha",
+        "chat": "Équipe 7 🚀",
+        "time": "21:33"
+      }
+    },
+    {
+      "id": "s15",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "capucine",
+      "text": "Vous semblez beaucoup y penser. — C.",
+      "message": {
+        "sender": "capucine",
+        "chat": "Équipe 7 🚀",
+        "time": "21:35"
+      }
+    },
+    {
+      "id": "s16",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Je pose le téléphone sur le lit, écran contre la couette. Comme s'il pouvait me voir."
+    },
+    {
+      "id": "s17",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Lâcheté. Il a choisi le mot exact. C'est ça, le pire."
+    },
+    {
+      "id": "s18",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Dans la cuisine, à trois mètres de ma porte, Nour fait une shakshuka. Il est 21h40, donc c'est le dîner. Ou le goûter. Avec Nour, tout est possible. Nour Benali : ma colocataire depuis la L1, étudiante en droit, et la seule personne au monde qui sait ce qu'il y a derrière @la.main.invisible."
+    },
+    {
+      "id": "s19",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "nour",
+      "text": "MAË",
+      "message": {
+        "sender": "nour",
+        "chat": "Nour",
+        "time": "21:41"
+      }
+    },
+    {
+      "id": "s20",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "nour",
+      "text": "JE SUIS DANS LA CUISINE MAIS JE T'ÉCRIS PARCE QUE C'EST GRAVE",
+      "message": {
+        "sender": "nour",
+        "chat": "Nour",
+        "time": "21:41"
+      }
+    },
+    {
+      "id": "s21",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "nour",
+      "text": "pourquoi t'as la tête de quelqu'un qui a vu un fantôme 😭",
+      "message": {
+        "sender": "nour",
+        "chat": "Nour",
+        "time": "21:41"
+      }
+    },
+    {
+      "id": "s22",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "le corbeau est dans mon équipe",
+      "message": {
+        "sender": "maelle",
+        "chat": "Nour",
+        "time": "21:42"
+      }
+    },
+    {
+      "id": "s23",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "et il déteste mon compte",
+      "message": {
+        "sender": "maelle",
+        "chat": "Nour",
+        "time": "21:42"
+      }
+    },
+    {
+      "id": "s24",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "genre vraiment",
+      "message": {
+        "sender": "maelle",
+        "chat": "Nour",
+        "time": "21:42"
+      }
+    },
+    {
+      "id": "s25",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "nour",
+      "text": "OBJECTION",
+      "message": {
+        "sender": "nour",
+        "chat": "Nour",
+        "time": "21:43"
+      }
+    },
+    {
+      "id": "s26",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "nour",
+      "text": "il déteste un compte. toi il te connaît pas. en l'espèce t'es en sécurité",
+      "message": {
+        "sender": "nour",
+        "chat": "Nour",
+        "time": "21:43"
+      }
+    },
+    {
+      "id": "s27",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "nour",
+      "text": "sauf si tu fais une bêtise. tu vas faire une bêtise ?",
+      "message": {
+        "sender": "nour",
+        "chat": "Nour",
+        "time": "21:43"
+      }
+    },
+    {
+      "id": "s28",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "jsp",
+      "message": {
+        "sender": "maelle",
+        "chat": "Nour",
+        "time": "21:44"
+      }
+    },
+    {
+      "id": "s29",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "nour",
+      "text": "MAË.",
+      "message": {
+        "sender": "nour",
+        "chat": "Nour",
+        "time": "21:44"
+      }
+    },
+    {
+      "id": "s30",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Je n'ai pas le temps de répondre. Une photo arrive. Elle est de travers, comme toutes les photos de Tom, mon petit frère, seize ans, resté à la ferme avec les parents et les chiens. La terre derrière la grange. Grise, craquelée, avec des fentes où on pourrait glisser la main."
+    },
+    {
+      "id": "s31",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "tom",
+      "text": "papa dit que la retenue est à 20%",
+      "message": {
+        "sender": "tom",
+        "chat": "Tom",
+        "time": "22:12"
+      }
+    },
+    {
+      "id": "s32",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "tom",
+      "text": "il a dit « on verra »",
+      "message": {
+        "sender": "tom",
+        "chat": "Tom",
+        "time": "22:12"
+      }
+    },
+    {
+      "id": "s33",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "tom",
+      "text": "ça veut dire que c'est grave non",
+      "message": {
+        "sender": "tom",
+        "chat": "Tom",
+        "time": "22:13"
+      }
+    },
+    {
+      "id": "s34",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "20% c'est bas mais c'est pas fini",
+      "message": {
+        "sender": "maelle",
+        "chat": "Tom",
+        "time": "22:15"
+      }
+    },
+    {
+      "id": "s35",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "dis à papa que je l'appelle dimanche",
+      "message": {
+        "sender": "maelle",
+        "chat": "Tom",
+        "time": "22:15"
+      }
+    },
+    {
+      "id": "s36",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "et mange toi aussi",
+      "message": {
+        "sender": "maelle",
+        "chat": "Tom",
+        "time": "22:16"
+      }
+    },
+    {
+      "id": "s37",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "tom",
+      "text": "ok",
+      "message": {
+        "sender": "tom",
+        "chat": "Tom",
+        "time": "22:16"
+      }
+    },
+    {
+      "id": "s38",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "À 22h30, un mail. Notre chargé de TD. Celui qui a transformé mon retard en spectacle ce matin."
+    },
+    {
+      "id": "s39",
+      "type": "document",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "De : Elias Marchetti\nObjet : Défi Garonne · conditions de participation\n\nChère Mademoiselle Castan,\n\nChaque membre de l'équipe doit valider en ligne les conditions de participation avant vendredi. Le lien se trouve dans votre espace. N'hésitez pas à me poser vos questions, sur le Défi ou sur autre chose : je suis plus utile qu'il n'y paraît.\n\nAu passage, votre entrée de ce matin m'a beaucoup plu. J'ai rarement vu quelqu'un arriver à bout de souffle avec autant de dignité.\n\nBien à vous,\nE. Marchetti"
+    },
+    {
+      "id": "s40",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "« Sur le Défi ou sur autre chose. » Je relis la phrase trois fois. Un chargé de TD n'écrit pas « autre chose ». Ou peut-être que si. Je n'ai aucune donnée."
+    },
+    {
+      "id": "s41",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Et puis il y a l'autre phrase. Conditions de participation. L'annexe 3. Je revois les lettres au crayon, petites et droites : « lire. TOUT. »"
+    },
+    {
+      "id": "s42",
+      "type": "scene",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "23h48"
+    },
+    {
+      "id": "s43",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Une question.",
+      "message": {
+        "sender": "sacha",
+        "chat": "Sacha",
+        "time": "23:48"
+      }
+    },
+    {
+      "id": "s44",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Ce matin, le post-it de mon dossier était décollé. Et il y avait de la craie sur la page.",
+      "message": {
+        "sender": "sacha",
+        "chat": "Sacha",
+        "time": "23:48"
+      }
+    },
+    {
+      "id": "s45",
+      "type": "message",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Tu l'as ouvert ?",
+      "message": {
+        "sender": "sacha",
+        "chat": "Sacha",
+        "time": "23:49"
+      }
+    },
+    {
+      "id": "s46",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "J'écris une réponse. Je l'efface. J'en écris une autre. Je l'efface aussi. En haut de l'écran, sous son nom, il est écrit « en ligne ». Il attend."
+    },
+    {
+      "id": "s47",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Il est presque minuit, et le garçon qui déteste les lâches attend que je choisisse ce que je suis."
+    }
+  ],
+  "highlights": [
+    {
+      "id": "w01",
+      "segment_id": "s03",
+      "surface": "ça claque",
+      "start": 14,
+      "end": 23,
+      "occurrence": 1,
+      "lemma": "ça claque",
+      "pos": "expression",
+      "definition_fr": "c'est très beau, ça fait de l'effet (familier)",
+      "translation_en": "that's cool, it looks great",
+      "example": "Ta nouvelle veste, ça claque !",
+      "cefr": "B2"
+    },
+    {
+      "id": "w02",
+      "segment_id": "s13",
+      "surface": "lâcheté",
+      "start": 125,
+      "end": 132,
+      "occurrence": 1,
+      "lemma": "la lâcheté",
+      "pos": "nom",
+      "definition_fr": "manque de courage",
+      "translation_en": "cowardice",
+      "example": "Partir sans rien dire, c'était de la lâcheté.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w03",
+      "segment_id": "s13",
+      "surface": "mise en page",
+      "start": 148,
+      "end": 160,
+      "occurrence": 1,
+      "lemma": "la mise en page",
+      "pos": "nom",
+      "definition_fr": "la façon dont un texte et des images sont disposés sur une page",
+      "translation_en": "layout",
+      "example": "La mise en page de ton CV est très claire.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w04",
+      "segment_id": "s26",
+      "surface": "en l'espèce",
+      "start": 45,
+      "end": 56,
+      "occurrence": 1,
+      "lemma": "en l'espèce",
+      "pos": "expression",
+      "definition_fr": "dans ce cas précis (langage juridique)",
+      "translation_en": "in this case, in the case at hand",
+      "example": "La loi est stricte, mais en l'espèce, le juge a été indulgent.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w05",
+      "segment_id": "s27",
+      "surface": "fais une bêtise",
+      "start": 11,
+      "end": 26,
+      "occurrence": 1,
+      "lemma": "faire une bêtise",
+      "pos": "expression",
+      "definition_fr": "faire quelque chose de stupide ou d'imprudent",
+      "translation_en": "to do something stupid",
+      "example": "J'ai fait une bêtise : j'ai envoyé le message au mauvais groupe.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w06",
+      "segment_id": "s30",
+      "surface": "grange",
+      "start": 203,
+      "end": 209,
+      "occurrence": 1,
+      "lemma": "la grange",
+      "pos": "nom",
+      "definition_fr": "bâtiment de ferme où on garde le foin, les outils ou les récoltes",
+      "translation_en": "barn",
+      "example": "Les enfants jouaient dans la grange.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w07",
+      "segment_id": "s30",
+      "surface": "craquelée",
+      "start": 218,
+      "end": 227,
+      "occurrence": 1,
+      "lemma": "craquelé(e)",
+      "pos": "adjectif",
+      "definition_fr": "couvert de petites fentes",
+      "translation_en": "cracked",
+      "example": "Après des semaines sans pluie, le sol est craquelé.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w08",
+      "segment_id": "s30",
+      "surface": "fentes",
+      "start": 238,
+      "end": 244,
+      "occurrence": 1,
+      "lemma": "la fente",
+      "pos": "nom",
+      "definition_fr": "ouverture étroite et longue",
+      "translation_en": "crack, slit",
+      "example": "Il a glissé la lettre par la fente de la porte.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w09",
+      "segment_id": "s31",
+      "surface": "retenue",
+      "start": 16,
+      "end": 23,
+      "occurrence": 1,
+      "lemma": "la retenue d'eau",
+      "pos": "nom",
+      "definition_fr": "réserve d'eau formée par un petit barrage, souvent pour l'irrigation",
+      "translation_en": "reservoir (small dam)",
+      "example": "La retenue d'eau permet d'arroser les champs en été.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w10",
+      "segment_id": "s39",
+      "surface": "Au passage",
+      "start": 345,
+      "end": 355,
+      "occurrence": 1,
+      "lemma": "au passage",
+      "pos": "expression",
+      "definition_fr": "en passant, sans que ce soit le sujet principal",
+      "translation_en": "by the way, incidentally",
+      "example": "Au passage, merci pour le gâteau.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w11",
+      "segment_id": "s39",
+      "surface": "plus utile qu'il n'y paraît",
+      "start": 315,
+      "end": 342,
+      "occurrence": 1,
+      "lemma": "plus … qu'il n'y paraît",
+      "pos": "expression",
+      "definition_fr": "plus que ce qu'on croit en voyant les apparences",
+      "translation_en": "more … than it seems",
+      "example": "Ce travail est plus difficile qu'il n'y paraît.",
+      "cefr": "C1"
+    },
+    {
+      "id": "w12",
+      "segment_id": "s46",
+      "surface": "en ligne",
+      "start": 124,
+      "end": 132,
+      "occurrence": 1,
+      "lemma": "être en ligne",
+      "pos": "expression",
+      "definition_fr": "être connecté(e) sur une application ou sur internet",
+      "translation_en": "online",
+      "example": "Elle est en ligne, mais elle ne répond pas.",
+      "cefr": "A2"
+    }
+  ],
+  "review_words": [
+    {
+      "segment_id": "s46",
+      "surface": "efface",
+      "start": 26,
+      "end": 32,
+      "lemma": "effacer",
+      "dictionary_ref": "equilibre-instable/ch01/w02"
+    },
+    {
+      "segment_id": "s44",
+      "surface": "décollé",
+      "start": 42,
+      "end": 49,
+      "lemma": "décoller",
+      "dictionary_ref": "equilibre-instable/ch02/w01"
+    },
+    {
+      "segment_id": "s30",
+      "surface": "de travers",
+      "start": 61,
+      "end": 71,
+      "lemma": "de travers",
+      "dictionary_ref": "equilibre-instable/ch02/w02"
+    },
+    {
+      "segment_id": "s39",
+      "surface": "à bout de souffle",
+      "start": 435,
+      "end": 452,
+      "lemma": "à bout de souffle",
+      "dictionary_ref": "equilibre-instable/ch02/w05"
+    },
+    {
+      "segment_id": "s13",
+      "surface": "découpé",
+      "start": 12,
+      "end": 19,
+      "lemma": "découper",
+      "dictionary_ref": "equilibre-instable/ch02/w13"
+    },
+    {
+      "segment_id": "s44",
+      "surface": "craie",
+      "start": 71,
+      "end": 76,
+      "lemma": "la craie",
+      "dictionary_ref": "equilibre-instable/ch01/w01"
+    }
+  ],
+  "choices": [
+    {
+      "id": "c04-a",
+      "text": "« Oui. J'ai vu ta note sur l'annexe 3. Je n'aurais pas dû. »"
+    },
+    {
+      "id": "c04-b",
+      "text": "« Non. Pourquoi ? »"
+    },
+    {
+      "id": "c04-c",
+      "text": "« Je lis les dossiers de tous les astrologues. Déformation professionnelle. »"
+    },
+    {
+      "id": "c04-d",
+      "text": "Ne pas répondre. Ouvrir @la.main.invisible et commencer un thread : « Comment reconnaître un ingénieur vexé. »"
+    }
+  ]
+}
