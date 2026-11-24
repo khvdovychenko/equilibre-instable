@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-11-24T14:23:39.331Z",
+  "updated_at": "2026-11-24T14:24:32.710Z",
   "words": [
     {
       "id": "w02@ch01",
@@ -57,6 +57,20 @@
       "chapter_id": "ch02",
       "chapter_title": "De travers",
       "added_at": "2026-11-24T14:23:39.331Z"
+    },
+    {
+      "id": "w04@ch02",
+      "lemma": "l'empreinte (f.)",
+      "pos": "nom",
+      "definition_fr": "marque laissée par un doigt, un pied, etc.",
+      "translation_en": "fingerprint, print",
+      "example": "La police a trouvé ses empreintes sur la porte.",
+      "cefr": "B2",
+      "surface": "empreintes",
+      "chapter": 2,
+      "chapter_id": "ch02",
+      "chapter_title": "De travers",
+      "added_at": "2026-11-24T14:24:32.710Z"
     }
   ],
   "deleted": []
