@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-24T17:20:27.262Z",
+  "updated_at": "2026-11-24T17:21:49.164Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -377,6 +377,27 @@
       "sentence": "Des brûlures.",
       "form_start": 4,
       "added_at": "2026-11-24T17:20:27.262Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      },
+      "card_status": "pending"
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/x-s05-113",
+      "surface": "essoufflé",
+      "segment_id": "s05",
+      "sentence": "Un sweat à capuche se faufile entre les rangs et s'arrête juste devant nous, essoufflé et ravi.",
+      "form_start": 77,
+      "added_at": "2026-11-24T17:21:49.164Z",
       "srs": {
         "status": "new",
         "interval": 0,
