@@ -1,8 +1,8 @@
 {
-  "choice_id": null,
+  "choice_id": "c02-a",
   "feedback": {
-    "difficulty": null,
-    "interest": null,
+    "difficulty": "ok",
+    "interest": 3,
     "comment": null
   },
   "saved_words": [
@@ -19,8 +19,8 @@
   ],
   "progress": {
     "last_segment_id": "s48",
-    "completed": false
+    "completed": true
   },
-  "submitted_at": null,
-  "updated_at": "2026-11-24T14:16:51.795Z"
+  "submitted_at": "2026-11-24T14:36:38.505Z",
+  "updated_at": "2026-11-24T14:36:38.504Z"
 }
