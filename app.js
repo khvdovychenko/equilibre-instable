@@ -1,11 +1,13 @@
 'use strict';
 /* Équilibre instable : lecteur d'histoire (PWA). Aucun framework, aucun build. */
 
-const APP_VERSION = '1.0.1';
+const APP_VERSION = '1.1.0';
 const REPO = { owner: 'khvdovychenko', repo: 'equilibre-instable', branch: 'main' };
 const LS_STATE = 'equilibre_state_v1';
 const LS_TOKEN = 'equilibre_token';
 const LS_INDEX = 'equilibre_index';
+const LS_CHAT = 'equilibre_chat_url'; // seulement sur ce téléphone, jamais envoyé au dépôt
+const NEXT_TEXT = 'далі';
 
 const $ = (s, r = document) => r.querySelector(s);
 const nowISO = () => new Date().toISOString();
@@ -62,15 +64,17 @@ function loadState() {
       s.vocab.words = s.vocab.words || {};
       s.vocab.deleted = s.vocab.deleted || {};
       s.ui = s.ui || {};
+      s.synced = s.synced || {};
       return s;
     }
   } catch (e) { /* état vide */ }
-  return { v: 1, chapters: {}, vocab: { words: {}, deleted: {} }, ui: {}, last_sync: null };
+  return { v: 1, chapters: {}, vocab: { words: {}, deleted: {} }, ui: {}, synced: {}, last_sync: null };
 }
 let state = loadState();
 function saveState() {
   try { localStorage.setItem(LS_STATE, JSON.stringify(state)); } catch (e) { /* stockage plein */ }
 }
+const getChatUrl = () => { try { return localStorage.getItem(LS_CHAT) || ''; } catch (e) { return ''; } };
 const getToken = () => { try { return localStorage.getItem(LS_TOKEN) || ''; } catch (e) { return ''; } };
 
 const getRec = (id) => state.chapters[id] || blankRec();
@@ -161,9 +165,9 @@ async function syncChapter(id, token) {
     }
     if (!token || !state.chapters[id]) return;
     const mine = chapterFile(id);
-    if (remote && JSON.stringify(mine) === JSON.stringify(remote.data)) return;
+    if (remote && JSON.stringify(mine) === JSON.stringify(remote.data)) { state.synced[id] = mine.updated_at || 'x'; return; }
     const res = await remoteWrite(`reader/${id}.json`, mine, remote && remote.sha, `reader: ${id}`, token);
-    if (res === 'ok') return;
+    if (res === 'ok') { state.synced[id] = mine.updated_at || 'x'; return; }
   }
   throw new Error('conflit');
 }
@@ -206,16 +210,21 @@ async function syncVocab(token) {
   throw new Error('conflit');
 }
 
-let syncing = false, syncAgain = false, syncTimer = null;
+let syncing = false, syncAgain = false, syncTimer = null, syncPromise = Promise.resolve();
+const syncHooks = new Set();
 function scheduleSync(ms) {
   clearTimeout(syncTimer);
   if (getToken()) setStatus('wait');
   syncTimer = setTimeout(syncNow, ms == null ? 2000 : ms);
 }
-async function syncNow() {
+function syncNow() {
   clearTimeout(syncTimer);
-  if (syncing) { syncAgain = true; return; }
+  if (syncing) { syncAgain = true; return syncPromise; }
   syncing = true;
+  syncPromise = runSync();
+  return syncPromise;
+}
+async function runSync() {
   const token = getToken();
   const before = JSON.stringify([state.chapters, state.vocab]) + localStorage.getItem(LS_INDEX);
   setStatus('sync');
@@ -234,6 +243,7 @@ async function syncNow() {
     syncing = false;
     const after = JSON.stringify([state.chapters, state.vocab]) + localStorage.getItem(LS_INDEX);
     if (after !== before && !document.body.classList.contains('reading') && $('#sheet').hidden) route();
+    syncHooks.forEach((f) => { try { f(); } catch (e) { /* ignore */ } });
     if (syncAgain) { syncAgain = false; scheduleSync(1500); }
   }
 }
@@ -267,9 +277,10 @@ const chStatus = (id) => {
 
 /* ---------- Routage ---------- */
 
-let routeSeq = 0, cleanup = null;
+let routeSeq = 0, cleanup = null, endHookCleanup = null;
 function route() {
   if (cleanup) { cleanup(); cleanup = null; }
+  if (endHookCleanup) { endHookCleanup(); endHookCleanup = null; }
   closeSheet();
   const parts = (location.hash.slice(1) || '/').split('/');
   const name = parts[1] || '';
@@ -290,6 +301,54 @@ function route() {
   if (name !== 'read') window.scrollTo(0, 0);
 }
 
+/* ---------- Bouton « Demander la suite » ---------- */
+
+let settingsNote = '';
+const isSynced = (id) => {
+  const r = state.chapters[id];
+  return !!(r && r.progress.completed && getToken() && state.synced[id] === (r.updated_at || 'x'));
+};
+function copyText(t) {
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(t);
+  } catch (e) { /* essai suivant */ }
+  return new Promise((resolve, reject) => {
+    try {
+      const ta = h('textarea', { style: 'position:fixed;opacity:0;top:0' }, t);
+      document.body.append(ta);
+      ta.select(); ta.setSelectionRange(0, t.length);
+      const ok = document.execCommand && document.execCommand('copy');
+      ta.remove();
+      ok ? resolve() : reject(new Error('copy'));
+    } catch (e) { reject(e); }
+  });
+}
+function askNext(msgEl) {
+  const url = getChatUrl();
+  if (!url) {
+    settingsNote = 'Colle ici le lien de ton chat de génération dans Claude (ouvre ce chat, copie l\'adresse du navigateur, colle-la dans le champ « Lien du chat Claude »). Ensuite reviens et touche « Demander la suite ».';
+    location.hash = '#/settings';
+    return;
+  }
+  // copie et ouverture dans le même geste (sinon iOS bloque l'ouverture)
+  const p = copyText(NEXT_TEXT);
+  try { window.open(url, '_blank'); } catch (e) { location.href = url; }
+  p.then(() => { msgEl.textContent = '« ' + NEXT_TEXT + ' » est copié. Colle-le dans le chat.'; })
+   .catch(() => { msgEl.textContent = 'Copie impossible : напиши: ' + NEXT_TEXT; });
+}
+// bouton si le dernier chapitre est confirmé ET synchronisé, sinon une note d'attente
+function askNextBlock(chId) {
+  const msg = h('p', { class: 'ask-msg' });
+  if (!isSynced(chId)) {
+    return h('div', { class: 'ask' }, h('p', { class: 'ask-wait' },
+      getToken() ? 'Le bouton « Demander la suite » apparaît dès que ton choix est synchronisé.' : 'Ajoute le jeton dans « Réglages » : le bouton « Demander la suite » apparaîtra après la synchronisation.',
+      h('br'), hint('the "ask for the next chapter" button appears once your choice is synced')));
+  }
+  return h('div', { class: 'ask' },
+    h('button', { class: 'btn', onclick: () => askNext(msg) }, 'Demander la suite', hintIn('ask for the next chapter')),
+    msg);
+}
+
 /* ---------- Bibliothèque ---------- */
 
 async function viewLibrary(my) {
@@ -299,6 +358,12 @@ async function viewLibrary(my) {
   const idx = await getIndex();
   if (my !== routeSeq) return;
   const list = [...idx.chapters].sort((a, b) => a.number - b.number);
+    const refreshBtn = h('button', { class: 'btn ghost', style: 'margin:0 0 16px', onclick: async () => {
+    refreshBtn.disabled = true; refreshBtn.firstChild.textContent = 'Actualisation…';
+    try { await syncNow(); } catch (e) { /* le statut montre l'erreur */ }
+    route();
+  } }, 'Actualiser', hintIn('refresh: fetch the new chapter'));
+  v.append(refreshBtn);
   idx.chapters.forEach((c) => fetch(c.file).catch(() => {})); // garde les chapitres pour lire hors ligne
 
   const next = list.find((c) => chStatus(c.id) !== 'read');
@@ -311,7 +376,8 @@ async function viewLibrary(my) {
       h('small', { style: 'color:#fff;opacity:.85' }, `${next.reading_minutes} min · ${next.cefr}`)));
   } else if (list.length) {
     v.append(h('div', { class: 'hero done' }, h('div', { class: 'k' }, 'À jour'),
-      h('h2', null, 'Tu as tout lu.'), h('p', { style: 'margin:0' }, 'La suite arrive bientôt. ', hint('you have read everything; more soon'))));
+      h('h2', null, 'Tu as tout lu.'), h('p', { style: 'margin:0 0 4px' }, 'La suite arrive bientôt. ', hint('you have read everything; more soon')),
+      askNextBlock(list[list.length - 1].id)));
   } else {
     v.append(h('p', { class: 'empty' }, 'Aucun chapitre pour le moment. ', hint('no chapters yet')));
   }
@@ -552,10 +618,14 @@ function buildEnd(ch, id) {
         render();
       } }, done ? 'Mettre à jour' : 'Valider mon choix', hintIn(done ? 'update' : 'confirm')),
       done ? h('p', { class: 'saved-note' }, '✓ Enregistré. ', h('span', { 'data-sync': '', style: 'font-weight:400;color:var(--muted)' }, statusText())) : null,
+      done ? askNextBlock(id) : null,
       done ? h('a', { class: 'btn ghost', href: '#/', style: 'text-align:center;text-decoration:none' }, 'Retour aux chapitres') : null
     );
   };
   render();
+  const hook = () => { if (getRec(id).submitted_at) render(); };
+  syncHooks.add(hook);
+  endHookCleanup = () => syncHooks.delete(hook);
   return box;
 }
 
@@ -649,6 +719,9 @@ function viewSettings() {
   const standalone = window.navigator.standalone || (window.matchMedia && matchMedia('(display-mode: standalone)').matches);
   const input = h('input', { type: 'password', placeholder: 'github_pat_…', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false' });
   const msg = h('p', { class: 'st' });
+  const note = settingsNote; settingsNote = '';
+  const chatMsg = h('p', { class: 'st' });
+  const chatInput = h('input', { type: 'text', inputmode: 'url', placeholder: 'https://claude.ai/chat/…', value: getChatUrl(), autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false' });
   fill(v, 
     h('h1', { class: 'page-title' }, 'Réglages'), h('p', { class: 'page-sub' }, hint('settings')),
     h('div', { class: 'panel' }, h('h2', null, 'Synchronisation ', hint('sync')),
@@ -677,6 +750,19 @@ function viewSettings() {
         if (confirm('Effacer le jeton de ce téléphone ?')) { localStorage.removeItem(LS_TOKEN); setStatus('local'); viewSettings(); }
       } }, 'Effacer le jeton') : null,
       msg),
+    h('div', { class: 'panel' + (note ? ' flash' : '') }, h('h2', null, 'Lien du chat Claude ', hint('link to your Claude chat')),
+      note ? h('p', { class: 'st wait' }, note) : null,
+      note ? h('p', null, hint('Paste the link of your Claude generation chat here (open the chat, copy the address from the browser), then come back and tap the button.')) : null,
+      h('p', null, 'Colle ici l\'adresse de ton chat de génération. Le bouton « Demander la suite » l\'ouvrira. ',
+        hint('Stays only on this phone, never sent to the repository.')),
+      chatInput,
+      h('button', { class: 'btn', onclick: () => {
+        const u = chatInput.value.trim();
+        if (u && !/^https:\/\/\S+$/.test(u)) { chatMsg.className = 'st err'; chatMsg.textContent = 'Le lien doit commencer par https://'; return; }
+        try { if (u) localStorage.setItem(LS_CHAT, u); else localStorage.removeItem(LS_CHAT); } catch (e) { /* ignore */ }
+        chatMsg.className = 'st ok'; chatMsg.textContent = u ? 'Lien enregistré ✓' : 'Lien effacé';
+      } }, 'Enregistrer le lien'),
+      chatMsg),
     standalone ? null : h('div', { class: 'panel' }, h('h2', null, 'Installer l\'appli ', hint('install the app')),
       h('p', null, 'Dans Safari : touche le bouton Partager, puis « Sur l\'écran d\'accueil ». ',
         hint('In Safari: tap Share, then Add to Home Screen.')),

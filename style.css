@@ -157,3 +157,11 @@ textarea { width: 100%; min-height: 78px; border: 1.5px solid var(--line); borde
 .card-val { font-size: 17px; }
 .card-val.ex { font-style: italic; }
 .card-src { margin-top: 14px; color: var(--muted); font-size: 13px; }
+
+/* Demander la suite */
+.ask { margin-top: 14px; }
+.ask-wait { color: var(--muted); font-size: 14px; margin: 6px 0; }
+.ask-msg { margin: 8px 0 0; font-weight: 600; color: var(--ok); min-height: 1em; }
+.hero.done .btn { background: var(--accent); }
+.panel.flash { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent); }
+.btn.ghost[style*="margin:0 0 16px"] { margin: 0 0 16px; }
