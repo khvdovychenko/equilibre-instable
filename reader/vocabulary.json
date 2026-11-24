@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-24T17:19:28.185Z",
+  "updated_at": "2026-11-24T17:19:49.751Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -331,6 +331,32 @@
       "sentence": "Sa main est froide, ses doigts sont longs, et il y a de petites cicatrices claires, rondes, sur le dos de sa main.",
       "form_start": 64,
       "added_at": "2026-11-24T17:19:28.185Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/w01",
+      "lemma": "serrer la main à qqn",
+      "pos": "expression",
+      "definition_fr": "prendre la main de quelqu'un pour le saluer",
+      "translation_en": "to shake someone's hand",
+      "example": "Il m'a serré la main sans sourire.",
+      "cefr": "B1",
+      "surface": "la serre",
+      "segment_id": "s03",
+      "sentence": "Puis il la serre.",
+      "form_start": 8,
+      "added_at": "2026-11-24T17:19:49.751Z",
       "srs": {
         "status": "new",
         "interval": 0,
