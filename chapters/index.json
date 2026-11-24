@@ -20,6 +20,15 @@
       "cefr": "B1+",
       "reading_minutes": 5,
       "generated_at": "2026-11-24"
+    },
+    {
+      "id": "ch03",
+      "number": 3,
+      "title": "Un demi-café",
+      "file": "chapters/ch03.json",
+      "cefr": "B1+",
+      "reading_minutes": 5,
+      "generated_at": "2026-11-24"
     }
   ]
 }

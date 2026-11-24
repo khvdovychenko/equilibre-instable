@@ -1,0 +1,588 @@
+{
+  "schema_version": "1.0",
+  "story_id": "equilibre-instable",
+  "season": 1,
+  "meta": {
+    "number": 3,
+    "title": "Un demi-café",
+    "language_stage": {
+      "stage": 1,
+      "cefr": "B1+"
+    },
+    "word_count": 719,
+    "reading_minutes": 5,
+    "story_date": "2026-09-14",
+    "generated_at": "2026-11-24"
+  },
+  "cast": {
+    "maelle": {
+      "name": "Maëlle",
+      "color": "#C8553D"
+    },
+    "sacha": {
+      "name": "Sacha",
+      "color": "#2E4A7D"
+    },
+    "capucine": {
+      "name": "Capucine",
+      "color": "#8E7DBE"
+    },
+    "bastien": {
+      "name": "Bastien",
+      "color": "#F4A261"
+    }
+  },
+  "segments": [
+    {
+      "id": "s01",
+      "type": "scene",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Manufacture des Tabacs · amphi · lundi 14 septembre · 11h12"
+    },
+    {
+      "id": "s02",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Je suis toujours."
+    },
+    {
+      "id": "s03",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Il regarde ma main tendue une seconde, comme une pièce dont il vérifie la référence. Puis il la serre. Sa main est froide, ses doigts sont longs, et il y a de petites cicatrices claires, rondes, sur le dos de sa main."
+    },
+    {
+      "id": "s04",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Des brûlures. Un fer à souder, sûrement. Je note : il a des mains qui fabriquent des choses. Je note aussi que je n'avais aucune raison de noter ça."
+    },
+    {
+      "id": "s05",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Autour de nous, les gens se lèvent. Un sweat à capuche se faufile entre les rangs et s'arrête juste devant nous, essoufflé et ravi."
+    },
+    {
+      "id": "s06",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "bastien",
+      "text": "Frérot, tu serres des mains, maintenant ? Attends. Maëlle, c'est ça ? Toi, je t'appelle la Banquière. T'as une tête à calculer des intérêts."
+    },
+    {
+      "id": "s07",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Je calcule surtout des marges."
+    },
+    {
+      "id": "s08",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "bastien",
+      "text": "C'est pire. Validé."
+    },
+    {
+      "id": "s09",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Au troisième rang, Capucine nous observe. Elle a tout vu : la main, le dossier, nous deux. Elle se redresse, ferme son ordinateur et passe devant nous sans ralentir."
+    },
+    {
+      "id": "s10",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "capucine",
+      "text": "Midi et demi, cafétéria du bâtiment E. Je vois que vous avez déjà commencé sans moi."
+    },
+    {
+      "id": "s11",
+      "type": "scene",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Cafétéria du bâtiment E · 12h34"
+    },
+    {
+      "id": "s12",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Un nanosatellite. Trois unités, dix centimètres de côté. On mesure l'humidité du sol nous-mêmes, sans dépendre des données des autres."
+    },
+    {
+      "id": "s13",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "capucine",
+      "text": "Et on le lance comment ? Avec un élastique ? Le jury veut un projet vendable, pas un exploit. Une application pour les mairies, qui détecte les fuites d'eau dans les canalisations. Les villes paient. Orbitale adore les villes qui paient."
+    },
+    {
+      "id": "s14",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Capucine a raison sur un point, et c'est le plus énervant : elle pense déjà comme un jury."
+    },
+    {
+      "id": "s15",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Bastien mange ses frites une par une et suit la discussion comme un match de tennis. Sur son plateau, son téléphone affiche 2 %."
+    },
+    {
+      "id": "s16",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "La sécheresse."
+    },
+    {
+      "id": "s17",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Trois têtes se tournent vers moi. Je n'avais pas prévu de le dire comme ça. Je pose ma fourchette."
+    },
+    {
+      "id": "s18",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Cet été, dans le Gers, des agriculteurs ont perdu un tiers de leur récolte. L'assurance classique envoie un expert, l'expert vient trois mois plus tard, et l'argent arrive quand la ferme a déjà pris un crédit de plus. Je veux une assurance paramétrique. Pas d'expert. Si l'humidité du sol passe sous un seuil, le paiement part tout seul."
+    },
+    {
+      "id": "s19",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "capucine",
+      "text": "Comme c'est original. Et touchant. C'est la ferme de qui, exactement ?"
+    },
+    {
+      "id": "s20",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Elle a trouvé mon point faible en quatre secondes. Elle mérite vraiment sa première place."
+    },
+    {
+      "id": "s21",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "De mes parents."
+    },
+    {
+      "id": "s22",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Je ne baisse pas les yeux. Capucine non plus. Bastien arrête de mâcher."
+    },
+    {
+      "id": "s23",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Ton seuil. Il vient d'où ?"
+    },
+    {
+      "id": "s24",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Des données satellite. L'humidité du sol, une image tous les deux ou trois jours."
+    },
+    {
+      "id": "s25",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Résolution trop faible. Un pixel fait plusieurs kilomètres. Ton champ, c'est une tache dans le bruit."
+    },
+    {
+      "id": "s26",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Alors on corrige le satellite avec le sol. Des capteurs dans les champs. Pas chers."
+    },
+    {
+      "id": "s27",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "bastien",
+      "text": "Attends, attends, attends. Des capteurs pas chers ? Ça, je sais faire. J'en fabrique dans ma chambre depuis la seconde, gros. Dix euros pièce, à la louche."
+    },
+    {
+      "id": "s28",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Un capteur dérive. Il faut le recalibrer."
+    },
+    {
+      "id": "s29",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Avec le satellite."
+    },
+    {
+      "id": "s30",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Qui se corrige avec le capteur."
+    },
+    {
+      "id": "s31",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "On se regarde. Il vient de finir ma phrase, je viens de finir la sienne, et aucun de nous deux n'a l'air content."
+    },
+    {
+      "id": "s32",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "bastien",
+      "text": "Euh. Vous vous rendez compte que vous venez d'inventer un projet ensemble, là ? Sans moi, en plus. Je suis vexé."
+    },
+    {
+      "id": "s33",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Capucine découpe sa pomme en quatre morceaux parfaits avec un couteau en plastique. Personne ne sait comment c'est possible."
+    },
+    {
+      "id": "s34",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "capucine",
+      "text": "Très joli. Maintenant, la question du jury : qui paie votre assurance ? Les agriculteurs n'ont pas d'argent. C'est justement le problème, non ?"
+    },
+    {
+      "id": "s35",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Touché. Je déteste quand elle a raison deux fois dans la même heure."
+    },
+    {
+      "id": "s36",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "capucine",
+      "text": "Je propose un vote. Mon projet : je vote pour. Bastien ?"
+    },
+    {
+      "id": "s37",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "bastien",
+      "text": "Les capteurs. Désolé, Madame la Marquise. Mon cœur appartient au fer à souder."
+    },
+    {
+      "id": "s38",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "capucine",
+      "text": "Madame la Marquise. Je vois."
+    },
+    {
+      "id": "s39",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Un partout. Tout le monde regarde Sacha. Il fait tourner son gobelet de café sur la table, un quart de tour, puis un autre."
+    },
+    {
+      "id": "s40",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Je ne vote pas sur des émotions."
+    },
+    {
+      "id": "s41",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Ce ne sont pas des émotions. Ce sont des chiffres avec des gens dedans."
+    },
+    {
+      "id": "s42",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Il lève les yeux. Ils sont très clairs, presque gris, et pendant une seconde, ils ne calculent rien. Il me regarde, c'est tout."
+    },
+    {
+      "id": "s43",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Convaincs-moi. Tu as jusqu'à la fin de mon café."
+    },
+    {
+      "id": "s44",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Il boit une gorgée. Lentement. Il reste la moitié du gobelet. Peut-être moins."
+    },
+    {
+      "id": "s45",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Le tirage au sort m'a donné trois inconnus et une seule chance. Il me reste un demi-café pour choisir comment la jouer."
+    }
+  ],
+  "highlights": [
+    {
+      "id": "w01",
+      "segment_id": "s03",
+      "surface": "la serre",
+      "start": 93,
+      "end": 101,
+      "occurrence": 1,
+      "lemma": "serrer la main à qqn",
+      "pos": "expression",
+      "definition_fr": "prendre la main de quelqu'un pour le saluer",
+      "translation_en": "to shake someone's hand",
+      "example": "Il m'a serré la main sans sourire.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w02",
+      "segment_id": "s03",
+      "surface": "cicatrices",
+      "start": 167,
+      "end": 177,
+      "occurrence": 1,
+      "lemma": "la cicatrice",
+      "pos": "nom",
+      "definition_fr": "marque qui reste sur la peau après une blessure",
+      "translation_en": "scar",
+      "example": "Elle a une petite cicatrice au-dessus de l'œil.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w03",
+      "segment_id": "s04",
+      "surface": "fer à souder",
+      "start": 17,
+      "end": 29,
+      "occurrence": 1,
+      "lemma": "le fer à souder",
+      "pos": "nom",
+      "definition_fr": "outil chaud qui sert à assembler des fils ou des pièces de métal",
+      "translation_en": "soldering iron",
+      "example": "Attention, le fer à souder est encore chaud.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w04",
+      "segment_id": "s15",
+      "surface": "plateau",
+      "start": 93,
+      "end": 100,
+      "occurrence": 1,
+      "lemma": "le plateau",
+      "pos": "nom",
+      "definition_fr": "support plat pour porter des assiettes, à la cantine par exemple",
+      "translation_en": "tray",
+      "example": "Pose ton plateau sur la table, je vais chercher de l'eau.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w05",
+      "segment_id": "s16",
+      "surface": "La sécheresse",
+      "start": 0,
+      "end": 13,
+      "occurrence": 1,
+      "lemma": "la sécheresse",
+      "pos": "nom",
+      "definition_fr": "longue période sans pluie",
+      "translation_en": "drought",
+      "example": "La sécheresse a détruit une partie des cultures.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w06",
+      "segment_id": "s18",
+      "surface": "récolte",
+      "start": 67,
+      "end": 74,
+      "occurrence": 1,
+      "lemma": "la récolte",
+      "pos": "nom",
+      "definition_fr": "ce qu'on ramasse dans les champs ; le fait de le ramasser",
+      "translation_en": "harvest, crop",
+      "example": "La récolte de raisin commence en septembre.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w07",
+      "segment_id": "s18",
+      "surface": "seuil",
+      "start": 303,
+      "end": 308,
+      "occurrence": 1,
+      "lemma": "le seuil",
+      "pos": "nom",
+      "definition_fr": "limite à partir de laquelle quelque chose se passe",
+      "translation_en": "threshold",
+      "example": "Au-dessus de ce seuil, l'alarme se déclenche.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w08",
+      "segment_id": "s20",
+      "surface": "point faible",
+      "start": 18,
+      "end": 30,
+      "occurrence": 1,
+      "lemma": "le point faible",
+      "pos": "nom",
+      "definition_fr": "l'endroit où quelqu'un ou quelque chose est le plus fragile",
+      "translation_en": "weak spot, weakness",
+      "example": "Les maths, c'est mon point faible.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w09",
+      "segment_id": "s22",
+      "surface": "mâcher",
+      "start": 64,
+      "end": 70,
+      "occurrence": 1,
+      "lemma": "mâcher",
+      "pos": "verbe",
+      "definition_fr": "écraser la nourriture avec les dents",
+      "translation_en": "to chew",
+      "example": "Mâche bien avant d'avaler.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w10",
+      "segment_id": "s27",
+      "surface": "à la louche",
+      "start": 143,
+      "end": 154,
+      "occurrence": 1,
+      "lemma": "à la louche",
+      "pos": "expression",
+      "definition_fr": "approximativement, sans calcul précis (familier)",
+      "translation_en": "roughly, ballpark",
+      "example": "À la louche, il y avait deux cents personnes.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w11",
+      "segment_id": "s28",
+      "surface": "dérive",
+      "start": 11,
+      "end": 17,
+      "occurrence": 1,
+      "lemma": "dériver",
+      "pos": "verbe",
+      "definition_fr": "s'éloigner peu à peu de la bonne valeur ou de la bonne direction",
+      "translation_en": "to drift",
+      "example": "Sans entretien, la mesure dérive avec le temps.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w12",
+      "segment_id": "s32",
+      "surface": "vexé",
+      "start": 107,
+      "end": 111,
+      "occurrence": 1,
+      "lemma": "vexé(e)",
+      "pos": "adjectif",
+      "definition_fr": "blessé dans son amour-propre",
+      "translation_en": "offended, hurt",
+      "example": "Elle est vexée parce que personne n'a goûté son gâteau.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w13",
+      "segment_id": "s35",
+      "surface": "Touché",
+      "start": 0,
+      "end": 6,
+      "occurrence": 1,
+      "lemma": "touché !",
+      "pos": "expression",
+      "definition_fr": "se dit quand l'autre a marqué un point juste dans une discussion",
+      "translation_en": "touché, fair point",
+      "example": "« Tu parles de ponctualité, toi ? » « Touché. »",
+      "cefr": "B2"
+    }
+  ],
+  "review_words": [
+    {
+      "segment_id": "s05",
+      "surface": "se faufile",
+      "start": 55,
+      "end": 65,
+      "lemma": "se faufiler",
+      "dictionary_ref": "w12@ch02"
+    },
+    {
+      "segment_id": "s09",
+      "surface": "se redresse",
+      "start": 96,
+      "end": 107,
+      "lemma": "se redresser",
+      "dictionary_ref": "w14@ch02"
+    },
+    {
+      "segment_id": "s33",
+      "surface": "découpe",
+      "start": 9,
+      "end": 16,
+      "lemma": "découper",
+      "dictionary_ref": "w13@ch02"
+    },
+    {
+      "segment_id": "s45",
+      "surface": "tirage au sort",
+      "start": 3,
+      "end": 17,
+      "lemma": "le tirage au sort",
+      "dictionary_ref": "w10@ch02"
+    }
+  ],
+  "choices": [
+    {
+      "id": "c03-a",
+      "text": "Tout miser sur la ferme : « C'est la sécheresse, ou vous faites sans moi. »"
+    },
+    {
+      "id": "c03-b",
+      "text": "Proposer un mélange : le satellite de Sacha, les capteurs de Bastien, mon assurance et le pitch de Capucine."
+    },
+    {
+      "id": "c03-c",
+      "text": "Changer de camp et voter pour le projet de Capucine. Elle me devra quelque chose."
+    },
+    {
+      "id": "c03-d",
+      "text": "Regarder Sacha : « Tu veux des données ? Viens les mesurer chez moi, dans le Gers. »"
+    }
+  ]
+}
