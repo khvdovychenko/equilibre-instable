@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0",
-  "updated_at": "2026-11-24T14:33:26.054Z",
+  "schema_version": "2.0",
+  "updated_at": "2026-11-24T17:19:28.185Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -309,6 +309,32 @@
         "status": "new",
         "interval": 0,
         "due_at": 3,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 3,
+      "chapter_id": "ch03",
+      "chapter_title": "Un demi-café",
+      "id": "equilibre-instable/ch03/w02",
+      "lemma": "la cicatrice",
+      "pos": "nom",
+      "definition_fr": "marque qui reste sur la peau après une blessure",
+      "translation_en": "scar",
+      "example": "Elle a une petite cicatrice au-dessus de l'œil.",
+      "cefr": "B1",
+      "surface": "cicatrices",
+      "segment_id": "s03",
+      "sentence": "Sa main est froide, ses doigts sont longs, et il y a de petites cicatrices claires, rondes, sur le dos de sa main.",
+      "form_start": 64,
+      "added_at": "2026-11-24T17:19:28.185Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 4,
         "reps": 0,
         "lapses": 0,
         "history": []
