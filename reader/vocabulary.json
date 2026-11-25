@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-25T16:48:54.983Z",
+  "updated_at": "2026-11-25T16:51:08.638Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -185,12 +185,19 @@
       "sentence": "J'arrive à bout de souffle.",
       "form_start": 9,
       "srs": {
-        "status": "new",
-        "interval": 0,
-        "due_at": 3,
-        "reps": 0,
+        "status": "learning",
+        "interval": 1,
+        "due_at": 5,
+        "reps": 1,
         "lapses": 0,
-        "history": []
+        "history": [
+          {
+            "story": "equilibre-instable",
+            "chapter": 4,
+            "grade": "hard",
+            "at": "2026-11-25T16:51:08.638Z"
+          }
+        ]
       }
     },
     {
