@@ -5,7 +5,9 @@
     "interest": null,
     "comment": null
   },
-  "saved_words": [],
+  "saved_words": [
+    "w02"
+  ],
   "progress": {
     "last_segment_id": "s47",
     "completed": false
