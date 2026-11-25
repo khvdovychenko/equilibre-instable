@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-25T16:51:54.647Z",
+  "updated_at": "2026-11-25T16:52:22.817Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -251,12 +251,19 @@
       "sentence": "Cheveux bouclés, chemise blanche, manches retroussées.",
       "form_start": 42,
       "srs": {
-        "status": "new",
-        "interval": 0,
-        "due_at": 3,
-        "reps": 0,
-        "lapses": 0,
-        "history": []
+        "status": "learning",
+        "interval": 1,
+        "due_at": 5,
+        "reps": 1,
+        "lapses": 1,
+        "history": [
+          {
+            "story": "equilibre-instable",
+            "chapter": 4,
+            "grade": "again",
+            "at": "2026-11-25T16:52:22.817Z"
+          }
+        ]
       }
     },
     {
