@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-25T16:53:04.691Z",
+  "updated_at": "2026-11-25T22:18:43.758Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -825,6 +825,27 @@
         "lapses": 0,
         "history": []
       }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 5,
+      "chapter_id": "ch05",
+      "chapter_title": "Quarante et un",
+      "id": "equilibre-instable/ch05/x-s06-96",
+      "surface": "coché",
+      "segment_id": "s06",
+      "sentence": "Et vendredi, j'ai coché la case, comme tout le monde.",
+      "form_start": 18,
+      "added_at": "2026-11-25T22:18:43.758Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 6,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      },
+      "card_status": "pending"
     }
   ],
   "deleted": []
