@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-25T22:19:13.507Z",
+  "updated_at": "2026-11-25T22:19:43.695Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -864,6 +864,32 @@
       "sentence": "Il pose une condition et il attend que je la remplisse.",
       "form_start": 42,
       "added_at": "2026-11-25T22:19:13.507Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 6,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 5,
+      "chapter_id": "ch05",
+      "chapter_title": "Quarante et un",
+      "id": "equilibre-instable/ch05/w03",
+      "lemma": "renifler",
+      "pos": "verbe",
+      "definition_fr": "sentir en aspirant l'air par le nez, comme un chien",
+      "translation_en": "to sniff",
+      "example": "Le chien renifle chaque arbre du parc.",
+      "cefr": "B2",
+      "surface": "renifle",
+      "segment_id": "s11",
+      "sentence": "Garbure, la vieille, nous renifle avec sérieux.",
+      "form_start": 26,
+      "added_at": "2026-11-25T22:19:43.695Z",
       "srs": {
         "status": "new",
         "interval": 0,
