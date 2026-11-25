@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-25T16:51:08.638Z",
+  "updated_at": "2026-11-25T16:51:54.647Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -218,12 +218,19 @@
       "sentence": "Je voudrais disparaître sous les gradins.",
       "form_start": 33,
       "srs": {
-        "status": "new",
-        "interval": 0,
-        "due_at": 3,
-        "reps": 0,
-        "lapses": 0,
-        "history": []
+        "status": "learning",
+        "interval": 1,
+        "due_at": 5,
+        "reps": 1,
+        "lapses": 1,
+        "history": [
+          {
+            "story": "equilibre-instable",
+            "chapter": 4,
+            "grade": "again",
+            "at": "2026-11-25T16:51:54.647Z"
+          }
+        ]
       }
     },
     {
