@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-25T22:18:43.758Z",
+  "updated_at": "2026-11-25T22:19:13.507Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -846,6 +846,32 @@
         "history": []
       },
       "card_status": "pending"
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 5,
+      "chapter_id": "ch05",
+      "chapter_title": "Quarante et un",
+      "id": "equilibre-instable/ch05/w02",
+      "lemma": "remplir une condition",
+      "pos": "expression",
+      "definition_fr": "faire ce qui est demandé pour obtenir quelque chose",
+      "translation_en": "to meet / fulfil a condition",
+      "example": "Pour avoir la bourse, il faut remplir trois conditions.",
+      "cefr": "B2",
+      "surface": "la remplisse",
+      "segment_id": "s10",
+      "sentence": "Il pose une condition et il attend que je la remplisse.",
+      "form_start": 42,
+      "added_at": "2026-11-25T22:19:13.507Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 6,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     }
   ],
   "deleted": []
