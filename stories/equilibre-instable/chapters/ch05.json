@@ -1,0 +1,599 @@
+{
+  "schema_version": "1.0",
+  "story_id": "equilibre-instable",
+  "season": 1,
+  "meta": {
+    "number": 5,
+    "title": "Quarante et un",
+    "language_stage": {
+      "stage": 1,
+      "cefr": "B1+"
+    },
+    "word_count": 812,
+    "reading_minutes": 5,
+    "story_date": "2026-09-19",
+    "generated_at": "2026-11-25"
+  },
+  "cast": {
+    "maelle": {
+      "name": "Maëlle",
+      "color": "#C8553D"
+    },
+    "sacha": {
+      "name": "Sacha",
+      "color": "#2E4A7D"
+    },
+    "tom": {
+      "name": "Tom",
+      "color": "#6A994E"
+    },
+    "jeanmarc": {
+      "name": "Jean-Marc",
+      "color": "#8C6A43"
+    }
+  },
+  "segments": [
+    {
+      "id": "s01",
+      "type": "scene",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Lomagne, près de Lectoure · samedi 19 septembre · 9h05"
+    },
+    {
+      "id": "s02",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "La Clio grise de Sacha sent le café froid et le fer à souder. Elle a onze ans, des miettes sur les sièges et un autocollant de l'ISAE à moitié arraché. Pour quelqu'un qui corrige les prix des autres, il est étonnamment tolérant avec sa voiture."
+    },
+    {
+      "id": "s03",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Depuis Toulouse, on a parlé de pluie, de pixels et de capteurs. Pas de lundi soir. Puis, après Fleurance, sans quitter la route des yeux :"
+    },
+    {
+      "id": "s04",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Tu l'as lue ?"
+    },
+    {
+      "id": "s05",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Lundi, à minuit, je lui ai écrit la vérité : oui, j'avais ouvert son dossier, j'avais vu sa note sur l'annexe 3. Il a mis quatre minutes à répondre. « Alors lis aussi la tienne. L'annexe 3. » Puis : « Bonne nuit. » J'ai relu ces deux messages plus souvent que mon cours d'économétrie."
+    },
+    {
+      "id": "s06",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Je l'ai ouverte. Onze pages de juridique. Je me suis endormie à la page deux. Et vendredi, j'ai coché la case, comme tout le monde. Sinon, on ne pouvait pas participer."
+    },
+    {
+      "id": "s07",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Moi aussi, j'ai coché."
+    },
+    {
+      "id": "s08",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Alors pourquoi « lire. TOUT. » ?"
+    },
+    {
+      "id": "s09",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Relis la page six. Ensuite, on en parle."
+    },
+    {
+      "id": "s10",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "C'est sa façon de dire « pas maintenant ». Il pose une condition et il attend que je la remplisse. Je déteste ça. Je fais exactement pareil."
+    },
+    {
+      "id": "s11",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Le chemin de la ferme est en pierres blanches. Le Kangoo de mon père est garé de travers devant la grange, comme toujours, comme si quelqu'un l'avait abandonné en pleine fuite. Deux chiens arrivent en aboyant. Garbure, la vieille, nous renifle avec sérieux. Pistou, le jeune, se faufile dans la voiture par la portière ouverte et ressort avec une chaussette."
+    },
+    {
+      "id": "s12",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Elle n'est pas à moi."
+    },
+    {
+      "id": "s13",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Elle est à lui, maintenant. Il en mange une par semaine."
+    },
+    {
+      "id": "s14",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Tom arrive en courant, à bout de souffle, dans une veste trop grande pour lui. Mon petit frère : seize ans, et déjà la même façon que papa de regarder le ciel avant de dire bonjour. Il regarde Sacha de la tête aux pieds."
+    },
+    {
+      "id": "s15",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "tom",
+      "text": "Boudu. C'est lui, l'ingénieur ? Il est grand, con."
+    },
+    {
+      "id": "s16",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Tom."
+    },
+    {
+      "id": "s17",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "tom",
+      "text": "Quoi ? C'est un compliment."
+    },
+    {
+      "id": "s18",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Mon père sort de la grange en s'essuyant les mains. Jean-Marc Castan : un mètre quatre-vingt-dix de silence, une casquette de coopérative et des épaules qui portent la ferme depuis trente ans. Il serre la main de Sacha, puis il la retourne et regarde les petites cicatrices sur le dos."
+    },
+    {
+      "id": "s19",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "jeanmarc",
+      "text": "Vous travaillez de vos mains."
+    },
+    {
+      "id": "s20",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Quand je peux."
+    },
+    {
+      "id": "s21",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "jeanmarc",
+      "text": "Bien. On verra."
+    },
+    {
+      "id": "s22",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Chez mon père, « on verra » peut vouloir dire oui, non, ou « je vais y réfléchir pendant six mois ». Ce matin, je crois que ça veut dire oui."
+    },
+    {
+      "id": "s23",
+      "type": "scene",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Le champ du haut · 10h20"
+    },
+    {
+      "id": "s24",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Le champ du haut est le plus sec. La terre est grise et dure, pleine de fentes. Sacha s'agenouille, sort de son sac une sonde métallique longue comme un crayon et, pour la première fois depuis que je le connais, il remonte ses manches. Les manches retroussées, il a l'air moins sombre. Des avant-bras pâles, une vieille montre, et de la poussière jusqu'aux coudes en deux minutes."
+    },
+    {
+      "id": "s25",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Je regarde la sonde. Uniquement la sonde."
+    },
+    {
+      "id": "s26",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Neuf pour cent d'humidité à dix centimètres. Le satellite dit quatorze."
+    },
+    {
+      "id": "s27",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Ton satellite ment."
+    },
+    {
+      "id": "s28",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Mon satellite fait une moyenne sur plusieurs kilomètres. Ton champ est en dessous de la moyenne."
+    },
+    {
+      "id": "s29",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Mon champ est en dessous de tout."
+    },
+    {
+      "id": "s30",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Je l'ai dit trop vite. Il lève la tête. Le vent passe sur la colline et efface les traces de nos pas dans la poussière, comme si on n'était jamais venus."
+    },
+    {
+      "id": "s31",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Si on ne gagne pas, il n'y aura peut-être plus de ferme à mesurer l'année prochaine. Voilà. Maintenant, tu sais que ce n'étaient pas des émotions."
+    },
+    {
+      "id": "s32",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Sacha ne dit rien pendant longtemps. Il décolle la terre sèche de sa sonde avec le pouce, soigneusement, comme si c'était la chose la plus importante du monde."
+    },
+    {
+      "id": "s33",
+      "type": "dialogue",
+      "perspective": "maelle",
+      "speaker": "sacha",
+      "text": "Alors on mesure bien. Chaque mètre. On ne leur laisse aucune moyenne."
+    },
+    {
+      "id": "s34",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Depuis le tirage au sort, c'est la première fois qu'il dit « on » et que ça ne ressemble pas à un reproche."
+    },
+    {
+      "id": "s35",
+      "type": "scene",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "La cuisine · 12h40"
+    },
+    {
+      "id": "s36",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Mon père a décidé qu'un ingénieur devait manger avant de repartir. Je rentre chercher de l'eau. Sur la table de la cuisine, sous la tresse d'ail, il y a une enveloppe. Le logo de la banque. Une lettre recommandée, déjà ouverte."
+    },
+    {
+      "id": "s37",
+      "type": "thought",
+      "perspective": "maelle",
+      "speaker": "maelle",
+      "text": "Je connais déjà une lettre de cette banque. Je l'ai lue en juin, par hasard, et je n'ai jamais dit à personne que je l'avais lue. Elle parlait de douze mille euros."
+    },
+    {
+      "id": "s38",
+      "type": "document",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Objet : échéances impayées · proposition de rééchelonnement\n\nMonsieur Castan,\n\nMalgré nos précédents courriers, trois échéances de votre prêt restent impayées. Le montant total de votre dette s'élève aujourd'hui à 41 300 €.\n\nNous vous demandons de prendre rendez-vous avec votre conseiller avant le 15 octobre. À défaut, nous serons dans l'obligation d'engager une procédure."
+    },
+    {
+      "id": "s39",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Quarante et un mille trois cents. Pas douze. Quarante et un."
+    },
+    {
+      "id": "s40",
+      "type": "narration",
+      "perspective": "maelle",
+      "speaker": null,
+      "text": "Derrière moi, le plancher grince. Sacha est à la porte de la cuisine, deux verres vides à la main. Il ne regarde pas la lettre. Il me regarde, moi. Il a déjà compris."
+    }
+  ],
+  "highlights": [
+    {
+      "id": "w01",
+      "segment_id": "s02",
+      "surface": "miettes",
+      "start": 83,
+      "end": 90,
+      "occurrence": 1,
+      "lemma": "la miette",
+      "pos": "nom",
+      "definition_fr": "tout petit morceau de pain, de gâteau, etc.",
+      "translation_en": "crumb",
+      "example": "Il y a des miettes partout sur le canapé.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w02",
+      "segment_id": "s10",
+      "surface": "la remplisse",
+      "start": 85,
+      "end": 97,
+      "occurrence": 1,
+      "lemma": "remplir une condition",
+      "pos": "expression",
+      "definition_fr": "faire ce qui est demandé pour obtenir quelque chose",
+      "translation_en": "to meet / fulfil a condition",
+      "example": "Pour avoir la bourse, il faut remplir trois conditions.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w03",
+      "segment_id": "s11",
+      "surface": "renifle",
+      "start": 236,
+      "end": 243,
+      "occurrence": 1,
+      "lemma": "renifler",
+      "pos": "verbe",
+      "definition_fr": "sentir en aspirant l'air par le nez, comme un chien",
+      "translation_en": "to sniff",
+      "example": "Le chien renifle chaque arbre du parc.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w04",
+      "segment_id": "s11",
+      "surface": "portière",
+      "start": 310,
+      "end": 318,
+      "occurrence": 1,
+      "lemma": "la portière",
+      "pos": "nom",
+      "definition_fr": "la porte d'une voiture ou d'un train",
+      "translation_en": "car door",
+      "example": "Ferme bien la portière avant de partir.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w05",
+      "segment_id": "s14",
+      "surface": "de la tête aux pieds",
+      "start": 199,
+      "end": 219,
+      "occurrence": 1,
+      "lemma": "de la tête aux pieds",
+      "pos": "expression",
+      "definition_fr": "entièrement, sur tout le corps",
+      "translation_en": "from head to toe",
+      "example": "Elle était mouillée de la tête aux pieds.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w06",
+      "segment_id": "s24",
+      "surface": "s'agenouille",
+      "start": 86,
+      "end": 98,
+      "occurrence": 1,
+      "lemma": "s'agenouiller",
+      "pos": "verbe",
+      "definition_fr": "se mettre à genoux",
+      "translation_en": "to kneel down",
+      "example": "Elle s'agenouille pour parler à l'enfant.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w07",
+      "segment_id": "s24",
+      "surface": "sonde",
+      "start": 120,
+      "end": 125,
+      "occurrence": 1,
+      "lemma": "la sonde",
+      "pos": "nom",
+      "definition_fr": "instrument qu'on enfonce pour mesurer quelque chose (sol, liquide, corps)",
+      "translation_en": "probe",
+      "example": "La sonde mesure la température de l'eau.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w08",
+      "segment_id": "s24",
+      "surface": "avant-bras",
+      "start": 290,
+      "end": 300,
+      "occurrence": 1,
+      "lemma": "l'avant-bras (m.)",
+      "pos": "nom",
+      "definition_fr": "partie du bras entre le coude et la main",
+      "translation_en": "forearm",
+      "example": "Il s'est fait un tatouage sur l'avant-bras.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w09",
+      "segment_id": "s28",
+      "surface": "moyenne",
+      "start": 23,
+      "end": 30,
+      "occurrence": 1,
+      "lemma": "la moyenne",
+      "pos": "nom",
+      "definition_fr": "valeur obtenue en divisant une somme par le nombre d'éléments",
+      "translation_en": "average",
+      "example": "Elle a 14 de moyenne en économie.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w10",
+      "segment_id": "s32",
+      "surface": "soigneusement",
+      "start": 90,
+      "end": 103,
+      "occurrence": 1,
+      "lemma": "soigneusement",
+      "pos": "adverbe",
+      "definition_fr": "avec beaucoup d'attention et de soin",
+      "translation_en": "carefully",
+      "example": "Il plie soigneusement sa chemise.",
+      "cefr": "B1"
+    },
+    {
+      "id": "w11",
+      "segment_id": "s36",
+      "surface": "tresse d'ail",
+      "start": 132,
+      "end": 144,
+      "occurrence": 1,
+      "lemma": "la tresse d'ail",
+      "pos": "nom",
+      "definition_fr": "têtes d'ail attachées ensemble par leurs tiges, comme des cheveux tressés",
+      "translation_en": "garlic braid",
+      "example": "On accroche la tresse d'ail dans la cuisine.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w12",
+      "segment_id": "s38",
+      "surface": "échéances",
+      "start": 8,
+      "end": 17,
+      "occurrence": 1,
+      "lemma": "l'échéance (f.)",
+      "pos": "nom",
+      "definition_fr": "date à laquelle on doit payer ; somme à payer à cette date",
+      "translation_en": "instalment, due date",
+      "example": "La prochaine échéance du prêt est le 5 du mois.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w13",
+      "segment_id": "s38",
+      "surface": "À défaut",
+      "start": 311,
+      "end": 319,
+      "occurrence": 1,
+      "lemma": "à défaut",
+      "pos": "expression",
+      "definition_fr": "si ce n'est pas fait ; sinon (langage administratif)",
+      "translation_en": "failing that, otherwise",
+      "example": "Répondez avant lundi. À défaut, votre place sera donnée à un autre candidat.",
+      "cefr": "B2"
+    },
+    {
+      "id": "w14",
+      "segment_id": "s40",
+      "surface": "grince",
+      "start": 26,
+      "end": 32,
+      "occurrence": 1,
+      "lemma": "grincer",
+      "pos": "verbe",
+      "definition_fr": "faire un bruit aigu et désagréable (porte, plancher)",
+      "translation_en": "to creak",
+      "example": "La vieille porte grince quand on l'ouvre.",
+      "cefr": "B1"
+    }
+  ],
+  "review_words": [
+    {
+      "segment_id": "s11",
+      "surface": "de travers",
+      "start": 78,
+      "end": 88,
+      "lemma": "de travers",
+      "dictionary_ref": "equilibre-instable/ch02/w02"
+    },
+    {
+      "segment_id": "s11",
+      "surface": "se faufile",
+      "start": 276,
+      "end": 286,
+      "lemma": "se faufiler",
+      "dictionary_ref": "equilibre-instable/ch02/w12"
+    },
+    {
+      "segment_id": "s14",
+      "surface": "à bout de souffle",
+      "start": 23,
+      "end": 40,
+      "lemma": "à bout de souffle",
+      "dictionary_ref": "equilibre-instable/ch02/w05"
+    },
+    {
+      "segment_id": "s18",
+      "surface": "serre la main",
+      "start": 196,
+      "end": 209,
+      "lemma": "serrer la main à qqn",
+      "dictionary_ref": "equilibre-instable/ch03/w01"
+    },
+    {
+      "segment_id": "s24",
+      "surface": "retroussées",
+      "start": 248,
+      "end": 259,
+      "lemma": "retroussé(e)",
+      "dictionary_ref": "equilibre-instable/ch02/w08"
+    },
+    {
+      "segment_id": "s30",
+      "surface": "efface",
+      "start": 72,
+      "end": 78,
+      "lemma": "effacer",
+      "dictionary_ref": "equilibre-instable/ch01/w02"
+    },
+    {
+      "segment_id": "s32",
+      "surface": "décolle",
+      "start": 40,
+      "end": 47,
+      "lemma": "décoller",
+      "dictionary_ref": "equilibre-instable/ch02/w01"
+    },
+    {
+      "segment_id": "s34",
+      "surface": "tirage au sort",
+      "start": 10,
+      "end": 24,
+      "lemma": "le tirage au sort",
+      "dictionary_ref": "equilibre-instable/ch02/w10"
+    }
+  ],
+  "choices": [
+    {
+      "id": "c05-a",
+      "text": "Replier la lettre et la remettre sous l'ail : « Ce n'est rien. On mange ? »"
+    },
+    {
+      "id": "c05-b",
+      "text": "Lui dire la vérité : « Voilà pourquoi je ne peux pas perdre. »"
+    },
+    {
+      "id": "c05-c",
+      "text": "Sortir avec la lettre et aller la poser devant mon père."
+    },
+    {
+      "id": "c05-d",
+      "text": "Prendre la lettre en photo. Je ferai les calculs ce soir, seule."
+    }
+  ]
+}

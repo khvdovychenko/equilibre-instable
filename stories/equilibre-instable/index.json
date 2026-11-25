@@ -38,6 +38,15 @@
       "cefr": "B1+",
       "reading_minutes": 4,
       "generated_at": "2026-11-24"
+    },
+    {
+      "id": "ch05",
+      "number": 5,
+      "title": "Quarante et un",
+      "file": "stories/equilibre-instable/chapters/ch05.json",
+      "cefr": "B1+",
+      "reading_minutes": 5,
+      "generated_at": "2026-11-25"
     }
   ]
 }
