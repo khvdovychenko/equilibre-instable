@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-11-24T22:33:11.623Z",
+  "updated_at": "2026-11-25T16:43:19.129Z",
   "words": [
     {
       "id": "equilibre-instable/ch01/w02",
@@ -660,6 +660,32 @@
       "translation_en": "inside, in it",
       "example": "J'ai ouvert la boîte : il n'y avait rien dedans.",
       "cefr": "A2"
+    },
+    {
+      "story": "equilibre-instable",
+      "chapter": 4,
+      "chapter_id": "ch04",
+      "chapter_title": "En ligne",
+      "id": "equilibre-instable/ch04/w02",
+      "lemma": "la lâcheté",
+      "pos": "nom",
+      "definition_fr": "manque de courage",
+      "translation_en": "cowardice",
+      "example": "Partir sans rien dire, c'était de la lâcheté.",
+      "cefr": "B2",
+      "surface": "lâcheté",
+      "segment_id": "s13",
+      "sentence": "C'est de la lâcheté avec une bonne mise en page.",
+      "form_start": 12,
+      "added_at": "2026-11-25T16:43:19.129Z",
+      "srs": {
+        "status": "new",
+        "interval": 0,
+        "due_at": 5,
+        "reps": 0,
+        "lapses": 0,
+        "history": []
+      }
     }
   ],
   "deleted": []
