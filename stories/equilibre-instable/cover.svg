@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2240"/>
+      <stop offset="0.38" stop-color="#4a3a68"/>
+      <stop offset="0.62" stop-color="#b8566a"/>
+      <stop offset="0.80" stop-color="#e98a5a"/>
+      <stop offset="1" stop-color="#f6c27a"/>
+    </linearGradient>
+    <linearGradient id="split" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2E4A7D" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#2E4A7D" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#D4A017" stop-opacity="0"/>
+      <stop offset="1" stop-color="#D4A017" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e48a5e"/>
+      <stop offset="0.5" stop-color="#7a4560"/>
+      <stop offset="1" stop-color="#1f1a2e"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15120f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#15120f" stop-opacity="0.92"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff1c9"/>
+      <stop offset="0.45" stop-color="#ffd08a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffb070" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <clipPath id="skyclip"><rect width="600" height="520"/></clipPath>
+  </defs>
+
+  <!-- ciel -->
+  <rect width="600" height="800" fill="url(#sky)"/>
+  <rect width="600" height="520" fill="url(#grid)"/>
+  <rect width="600" height="800" fill="url(#split)"/>
+
+  <!-- étoiles -->
+  <g fill="#fff" opacity="0.8">
+    <circle cx="62" cy="70" r="1.4"/><circle cx="140" cy="38" r="1"/><circle cx="212" cy="96" r="1.2"/>
+    <circle cx="318" cy="52" r="1"/><circle cx="402" cy="110" r="1.3"/><circle cx="470" cy="44" r="1"/>
+    <circle cx="548" cy="88" r="1.5"/><circle cx="96" cy="160" r="1"/><circle cx="520" cy="170" r="1"/>
+    <circle cx="260" cy="150" r="0.9"/>
+  </g>
+
+  <!-- soleil -->
+  <circle cx="300" cy="470" r="120" fill="url(#sun)"/>
+  <circle cx="300" cy="470" r="46" fill="#fff0cf" opacity="0.95"/>
+
+  <!-- orbite du satellite -->
+  <g clip-path="url(#skyclip)">
+    <ellipse cx="300" cy="300" rx="330" ry="120" transform="rotate(-14 300 300)" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.4" stroke-dasharray="2 7"/>
+    <ellipse cx="300" cy="300" rx="250" ry="80" transform="rotate(10 300 300)" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1"/>
+  </g>
+  <g transform="translate(488 205) rotate(-14)">
+    <rect x="-5" y="-4" width="10" height="8" rx="1.5" fill="#fff"/>
+    <rect x="-19" y="-3" width="12" height="6" fill="#9fc0ff"/>
+    <rect x="7" y="-3" width="12" height="6" fill="#9fc0ff"/>
+    <circle r="16" fill="#fff" opacity="0.12"/>
+  </g>
+
+  <!-- ville : silhouettes en brique rose -->
+  <g fill="#8f3f3a">
+    <!-- clocher octogonal (type Saint-Sernin) -->
+    <path d="M78 520V420h12v-14h-4l10-18 10 18h-4v14h12v100z"/>
+    <path d="M90 388h22l-11-62z"/>
+    <rect x="0" y="470" width="190" height="50"/>
+    <path d="M150 470v-30h40v30z"/>
+    <!-- immeubles droite -->
+    <rect x="410" y="452" width="190" height="68"/>
+    <path d="M430 452v-26h50v26zM500 452v-40h36v40zM548 452v-22h52v22z"/>
+    <rect x="470" y="400" width="14" height="30"/>
+  </g>
+  <g fill="#6e2f33">
+    <rect x="0" y="490" width="600" height="30"/>
+    <path d="M200 490v-28h30v28zM360 490v-22h44v22z"/>
+  </g>
+  <!-- fenêtres allumées -->
+  <g fill="#ffd38a" opacity="0.9">
+    <rect x="20" y="482" width="5" height="7"/><rect x="44" y="482" width="5" height="7"/><rect x="128" y="482" width="5" height="7"/>
+    <rect x="440" y="464" width="5" height="7"/><rect x="514" y="426" width="5" height="7"/><rect x="566" y="464" width="5" height="7"/>
+    <rect x="590" y="500" width="4" height="6"/><rect x="214" y="498" width="4" height="6"/>
+  </g>
+
+  <!-- Garonne -->
+  <rect y="520" width="600" height="280" fill="url(#water)"/>
+  <g stroke="#ffe2b0" stroke-linecap="round" opacity="0.7">
+    <path d="M270 598h60" stroke-width="3"/>
+    
+  </g>
+
+  <!-- Pont Neuf : tablier et arches en brique -->
+  <rect y="500" width="600" height="76" fill="#7a3434"/>
+  <g fill="#e08a60">
+    <path d="M18 576a42 42 0 0 1 84 0z"/><path d="M138 576a42 42 0 0 1 84 0z"/>
+    <path d="M258 576a42 42 0 0 1 84 0z"/><path d="M378 576a42 42 0 0 1 84 0z"/>
+    <path d="M498 576a42 42 0 0 1 84 0z"/>
+  </g>
+  <g fill="#5e2a2e">
+    <circle cx="120" cy="516" r="7"/><circle cx="240" cy="516" r="7"/><circle cx="360" cy="516" r="7"/><circle cx="480" cy="516" r="7"/>
+  </g>
+  <rect y="498" width="600" height="5" fill="#9a4a3f"/>
+  <!-- reflets des arches -->
+  <g fill="#3c2233" opacity="0.45">
+    <path d="M18 576a42 30 0 0 0 84 0z"/><path d="M138 576a42 30 0 0 0 84 0z"/>
+    <path d="M258 576a42 30 0 0 0 84 0z"/><path d="M378 576a42 30 0 0 0 84 0z"/>
+    <path d="M498 576a42 30 0 0 0 84 0z"/>
+  </g>
+  <!-- assombrir le bas pour le titre -->
+  <rect y="540" width="600" height="260" fill="url(#fade)"/>
+
+  <!-- titre -->
+  <text x="300" y="672" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-style="italic" fill="#fbefe0" letter-spacing="1">Équilibre</text>
+  <text x="300" y="726" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#fbefe0" letter-spacing="10">INSTABLE</text>
+  <line x1="220" y1="748" x2="380" y2="748" stroke="#C8553D" stroke-width="2"/>
+  <text x="300" y="774" text-anchor="middle" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#e8d6c4" letter-spacing="4">TOULOUSE · SAISON 1</text>
+</svg>

@@ -5,7 +5,8 @@
       "id": "equilibre-instable",
       "title": "Équilibre instable",
       "synopsis": "Toulouse. Une économiste, un ingénieur, un concours. Et tout ce qu'on ne dit pas.",
-      "index": "stories/equilibre-instable/index.json"
+      "index": "stories/equilibre-instable/index.json",
+      "cover": "stories/equilibre-instable/cover.svg"
     }
   ]
 }

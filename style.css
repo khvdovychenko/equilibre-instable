@@ -202,3 +202,15 @@ body.sel .stream, body.sel .rcard { -webkit-user-select: text; user-select: text
 .grade { border: 1.5px solid var(--line); border-radius: 14px; padding: 12px 6px; font-weight: 800; background: var(--bg); color: var(--ink); }
 .grade small { display: block; }
 .grade.again { border-color: #c0392b; } .grade.hard { border-color: #d99a00; } .grade.good { border-color: var(--ok); } .grade.easy { border-color: var(--accent); }
+
+/* v2.0.1 : couvertures des histoires */
+.sgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 14px; }
+.scover { display: block; text-decoration: none; color: inherit; }
+.scover-art { position: relative; aspect-ratio: 3 / 4; border-radius: 16px; overflow: hidden; background: var(--card); border: 1px solid var(--line); box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+.scover-img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.scover-ph { width: 100%; height: 100%; display: grid; place-items: center; background: var(--accent); color: #fff; font-size: 54px; font-weight: 800; }
+.scover-art .badge { position: absolute; top: 8px; left: 8px; }
+.scover-t { padding: 8px 2px 0; }
+.scover-t b { display: block; font-size: 15px; line-height: 1.25; }
+.scover-t span { color: var(--muted); font-size: 13px; }
+.scover-art .badge.read { background: #3d7a4a; color: #fff; }

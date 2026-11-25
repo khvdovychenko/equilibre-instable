@@ -1,7 +1,7 @@
 'use strict';
 /* Équilibre instable : lecteur d'histoires (PWA). Aucun framework, aucun build. */
 
-const APP_VERSION = '2.0.0';
+const APP_VERSION = '2.0.1';
 const REPO = { owner: 'khvdovychenko', repo: 'equilibre-instable', branch: 'main' };
 const DEFAULT_STORY = 'equilibre-instable';
 const LS_STATE = 'equilibre_state_v1';
@@ -494,13 +494,15 @@ async function viewStories(my) {
     const badge = sts.includes('new') ? h('span', { class: 'badge new' }, 'Nouveau')
       : sts.includes('prog') ? h('span', { class: 'badge prog' }, 'En cours')
       : chs.length ? h('span', { class: 'badge read' }, 'À jour ✓') : null;
-    return h('a', { class: 'chrow', href: '#/story/' + st.id },
-      h('div', { class: 'num cover' }, (st.title || '?').charAt(0)),
-      h('div', { class: 't' }, h('b', null, st.title), h('span', null, st.synopsis || ''),
-        h('span', { style: 'display:block;margin-top:2px' }, `${read}/${chs.length} chapitres lus`)),
-      badge);
+    const art = st.cover
+      ? h('img', { class: 'scover-img', src: st.cover, alt: st.title, loading: 'lazy' })
+      : h('div', { class: 'scover-ph' }, (st.title || '?').charAt(0));
+    return h('a', { class: 'scover', href: '#/story/' + st.id },
+      h('div', { class: 'scover-art' }, art, badge),
+      h('div', { class: 'scover-t' }, h('b', null, st.title),
+        h('span', null, `${read}/${chs.length} chapitres lus`)));
   });
-  if (rows.length) v.append(h('div', { class: 'chlist' }, rows));
+  if (rows.length) v.append(h('div', { class: 'sgrid' }, rows));
   v.append(h('div', { class: 'sync-line', dataset: { sync: '' } }, statusText()), h('div', { class: 'sync-line' }, 'version ' + APP_VERSION));
 }
 
